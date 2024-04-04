@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 90%;
+  grid-template-rows: max-content;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+}
