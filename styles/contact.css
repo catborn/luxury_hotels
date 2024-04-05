@@ -1,0 +1,41 @@
+@import url(./fonts.css);
+.contact {
+  display: grid;
+  grid-template-columns: 10vw 1fr 1fr 10vw;
+  grid-template-rows: 30vh 70vh;
+  color: #14274A;
+}
+
+.contact__description {
+  grid-row: 1/2;
+  grid-column: 2/4;
+  align-content: end;
+}
+
+.contact__description-title {
+  margin-bottom: 0;
+  font-family: Adobe;
+  font-size: 50px;
+}
+
+.contact__description-text {
+  margin-top: 0;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.contact__our {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  margin-top: 10vh;
+  font-family: Montserrat;
+  font-size: 30px;
+}
+
+.contact__form {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  margin-top: 10vh;
+  font-family: Montserrat;
+  font-size: 15px;
+}/*# sourceMappingURL=contact.css.map */
