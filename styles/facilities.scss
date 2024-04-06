@@ -1,0 +1,18 @@
+@import "_variables";
+@import url(./fonts.css);
+
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 90%;
+  grid-template-rows: max-content;
+  text-align: center;
+  font-family: $font-familyText;
+}
+
+.container h1 {
+  font-family: $font-familyTitle;
+}
+.card {
+  width: 100%;
+}
