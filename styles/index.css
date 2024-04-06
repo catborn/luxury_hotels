@@ -1,4 +1,35 @@
-:root {
-    --font-family-b: Adobe, sans-serif;
-	--font-family-r: Montserrat, sans-serif;
+@font-face {
+  font-family: Adobe;
+  src: url("/luxury_hotels/fonts/AGaramondPro-Bold.woff");
 }
+@font-face {
+  font-family: Montserrat;
+  src: url("/luxury_hotels/fonts/Montserrat-Regular.woff");
+}
+.container span p {
+  font-family: Montserrat;
+  font-size: 36px;
+  color: rgb(20, 39, 74);
+}
+
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 90%;
+  grid-template-rows: max-content;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.container h1,
+h2 {
+  font-family: Adobe;
+}
+
+.card {
+  width: 100%;
+}
+
+.first_room {
+  background-color: white darkblue yellow;
+}/*# sourceMappingURL=index.css.map */

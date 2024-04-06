@@ -1,0 +1,52 @@
+@import "_variables";
+@import "_mixins";
+
+
+@font-face {
+	font-family: Adobe;
+	src: url('/luxury_hotels/fonts/AGaramondPro-Bold.woff');
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url('/luxury_hotels/fonts/Montserrat-Regular.woff');
+}
+
+
+//  home
+.container span p {
+  font-family: Montserrat;
+  font-size: 36px;
+  color:rgba(20, 39, 74, 1)
+}
+
+
+
+
+// FACILITIES
+
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 90%;
+  grid-template-rows: max-content;
+  text-align: center;
+  font-family: $font-familyText;
+}
+
+.container h1,
+h2 {
+  font-family: $font-familyTitle;
+}
+.card {
+  width: 100%;
+}
+
+
+// ROOMS
+
+.first_room {
+  background-color: $mainColor;
+}
+
+
