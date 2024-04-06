@@ -1,3 +1,4 @@
+@import url(./fonts.css);
 @font-face {
   font-family: Adobe;
   src: url("/luxury_hotels/fonts/AGaramondPro-Bold.woff");
@@ -30,6 +31,55 @@ h2 {
   width: 100%;
 }
 
+.rooms {
+  display: grid;
+}
+
+.first_room_header {
+  text-align: center;
+  color: rgb(20, 39, 74);
+  font-size: larger;
+  padding: 0%;
+  word-spacing: normal;
+}
+
+h1 {
+  font-size: larger;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: xx-large;
+}
+
 .first_room {
   background-color: white darkblue yellow;
+  border: 1px solid darkblue;
+}
+
+h2 {
+  border: 1px solid darkblue;
+  height: 15vh;
+  padding-top: 5%;
+  color: aliceblue;
+  font-size: 45px;
+  letter-spacing: 3px;
+  background-color: rgb(20, 39, 74);
+  text-align: center;
+}
+
+.details_bar {
+  display: grid;
+  padding-top: 5%;
+}
+
+.price_bar {
+  display: grid;
+  border: 0px;
+  padding-bottom: 5%;
+  font-size: 16px;
+  font-weight: 600;
+  justify-items: end;
+}
+
+.details_and_price {
+  border: 1px solid darkblue;
 }/*# sourceMappingURL=index.css.map */

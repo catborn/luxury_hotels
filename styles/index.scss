@@ -44,9 +44,60 @@ h2 {
 
 
 // ROOMS
+@import url(./fonts.css);
 
-.first_room {
-  background-color: $mainColor;
+.rooms{
+  display: grid;
+  
 }
 
+.first_room_header{
+  $font-familyText: Montserrat;
+  $font-familyTitle: Adobe; 
+  text-align: center;
+  color: rgba(20, 39, 74, 1);
+  font-size:larger;
+  padding: 0%;
+  word-spacing: normal;
+}
+h1{
+  font-size:larger;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: xx-large;
+}
+.first_room {
+  background-color: $mainColor;
+  border: 1px solid darkblue;
+  
+}
+h2{
+  border: 1px solid darkblue;
+  height: 15vh;
+  padding-top: 5%;
+  color: aliceblue;
+  font-size: 45px;
+  letter-spacing: 3px;
+  background-color:rgba(20, 39, 74, 1);
+  text-align:center;
+  $font-familyText: Montserrat;
+}
+.details_bar{
+  display: grid;
+  padding-top: 5%;
+}
 
+.price_bar{
+  display: grid;
+  border: 0px;
+  padding-bottom: 5%;
+  font-size: 16px;
+  font-weight: 600;
+  justify-items:end;
+}
+.details_and_price{
+border: 1px solid darkblue; 
+}
+img{
+
+}
