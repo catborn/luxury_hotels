@@ -22,20 +22,70 @@
   margin-top: 0;
   font-family: Montserrat;
   font-size: 20px;
+  font-weight: 600;
 }
 
 .contact__our {
   grid-row: 2/3;
   grid-column: 2/3;
+  width: 30vw;
   margin-top: 10vh;
   font-family: Montserrat;
   font-size: 30px;
 }
 
+.contact__our-map {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+
+.contact__our-map img {
+  width: 50px;
+}
+
 .contact__form {
   grid-row: 2/3;
   grid-column: 3/4;
+  width: 35vw;
+  justify-self: end;
   margin-top: 10vh;
   font-family: Montserrat;
   font-size: 15px;
+  font-weight: 800;
+}
+
+.contact__form-email {
+  margin-top: 13px;
+}
+
+.contact__form-massege {
+  margin-top: 13px;
+}
+
+.contact__form-button {
+  display: grid;
+  justify-content: end;
+  margin-top: 13px;
+}
+
+.contact__form-buttonSubmit {
+  border: 0px;
+  border-radius: 7px;
+  padding: 13px;
+  color: rgb(255, 255, 255);
+  background-color: #E0B973;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#message {
+  height: 30vh;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  border-radius: 0%;
+  border-color: rgba(20, 39, 74, 0.3647058824);
 }/*# sourceMappingURL=contact.css.map */
