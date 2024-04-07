@@ -171,21 +171,46 @@ a {
   max-height: 1080px;
 }
 
-.container {
+.main__container-facilities {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: 90%;
   grid-template-rows: max-content;
   text-align: center;
-  font-family: $font-familyText;
+  grid-row-gap: 1%;
 }
 
-.container h1,
-h2 {
-  font-family: $font-familyTitle;
+.main__image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat (6, (10fr 1fr));
+  grid-row-gap: 10px;
 }
-.card {
+
+.image__card {
+  grid-area: 1 / 1 / 3 / 4;
+}
+
+.image__label {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: white;
+  text-align: center;
+  align-self: end;
+  font-size: 2rem;
+}
+
+main img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button_tesimonials {
+  border: 0;
+}
+
+.button_tesimonials:hover {
+  transform: scale(1.2);
 }
 
 // ROOMS
@@ -474,7 +499,7 @@ button{
   margin-top: 13px;
 }
 
-.contact__form-button{
+.contact__form-button {
   display: grid;
   justify-content: end;
   margin-top: 13px;
