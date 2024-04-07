@@ -134,11 +134,15 @@ h2 {
 .rooms{
   display: grid;
 
+  justify-content: space-evenly;
+
 }
 
 .first_room_header{
   $font-familyText: Montserrat;
   $font-familyTitle: Adobe;
+  $font-familyTitle: Adobe;
+  padding-top: 5%;
   text-align: center;
   color: rgba(20, 39, 74, 1);
   font-size:larger;
@@ -155,12 +159,13 @@ h1{
 
 .first_room {
   background-color: $mainColor;
-  border: 1px solid darkblue;
+ 
+
 }
 
 h2{
   border: 1px solid darkblue;
-  height: 15vh;
+  height: 10vh;
   padding-top: 5%;
   color: aliceblue;
   font-size: 45px;
@@ -173,6 +178,9 @@ h2{
 .details_bar{
   display: grid;
   padding-top: 5%;
+  $font-familyText: Montserrat;
+  font-weight: 600;
+
 }
 
 .price_bar{
