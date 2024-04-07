@@ -278,15 +278,11 @@ h2 {
   height: 100%;
   margin: 40px 40px 40px 40px;
 }
-.social__img {
-  margin-right: 25px;
-  width: 15px;
-}
 .link {
   text-decoration: none;
   color: inherit;
 }
-.footer__section__title {
+.footer__section-title {
   font-family: Adobe;
   font-size: 25px;
   font-weight: 700;
@@ -295,45 +291,48 @@ h2 {
   text-align: left;
   margin-bottom: 15px;
 }
-.footer__section__contacts {
+.footer__section-contacts {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
   line-height: 17.07px;
   text-align: left;
 }
-.footer__section__menu {
+.footer__menu {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
   text-align: left;
 }
-.footer__section__menu__li {
+.footer__menu-link {
   padding-bottom: 17px;
 }
-.footer__section__social {
+.footer__social {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 31.18px;
   text-align: left;
 }
-
-.footer__section__text {
+.footer__social-img {
+  margin-right: 25px;
+  width: 15px;
+}
+.footer__section-text {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 10.5px;
   text-align: left;
 }
-.footer__section__form {
+.footer__section-form {
   display: flex;
   height: min-content;
   margin-top: -70px;
 }
 /* кнопка */
-.footer__section__btn {
+.footer__section-btn {
   display: inline-block;
   font-family: Montserrat;
   font-weight: 700;
@@ -351,10 +350,10 @@ h2 {
   border-radius: 0.25rem;
   transition: background-color 0.15s ease-in-out;
 }
-.footer__section__btn:hover {
+.footer__section-btn:hover {
   background-color: rgba (224, 185, 115, 1);
 }
-.footer__section__input {
+.footer__section-input {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   position: relative;
@@ -433,7 +432,7 @@ h2 {
   margin-top: 13px;
 }
 
-.contact__form-button{
+.contact__form-button {
   display: grid;
   justify-content: end;
   margin-top: 13px;
