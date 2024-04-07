@@ -362,3 +362,100 @@ h2 {
   background-color: rgba(20, 39, 74, 1);
   border: 1px solid rgba(224, 185, 115, 1);
 }
+
+//contact form style//
+
+.contact {
+  display: grid;
+  grid-template-columns: 10vw 1fr 1fr 10vw;
+  grid-template-rows: 30vh 70vh;
+  color: $contact-color;
+}
+
+.contact__description {
+  grid-row: 1/2;
+  grid-column: 2/4;
+  align-content: end;
+}
+
+.contact__description-title {
+  margin-bottom: 0;
+  border: 0;
+  text-align: start;
+  background-color: $textColor;
+  color: $contact-color;
+  font-family: $font-familyTitle;
+  font-size: 50px;
+}
+
+.contact__description-text {
+  margin-top: 0;
+  font-family: $font-familyText;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact__our {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  width: 30vw;
+  margin-top: $contact-marginTop;
+  font-family: $font-familyText;
+  font-size: 30px;
+}
+
+.contact__our-map {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+
+.contact__our-map img {
+  width: 50px;
+}
+
+.contact__form {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  width: 35vw;
+  justify-self: end;
+  margin-top: $contact-marginTop;
+  font-family: $font-familyText;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.contact__form-email {
+  margin-top: 13px;
+}
+
+.contact__form-massege {
+  margin-top: 13px;
+}
+
+.contact__form-button{
+  display: grid;
+  justify-content: end;
+  margin-top: 13px;
+}
+
+.contact__form-buttonSubmit {
+  border: 0px;
+  border-radius: 7px;
+  padding: 13px;
+  color: $textColor;
+  background-color: $button-color;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#message {
+  height: 30vh;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  border-radius: 0%;
+  border-color: #14274a5d;
+}
