@@ -193,9 +193,6 @@ h2 {
 }
 
 .first_room_header {
-  $font-familyText: Montserrat;
-  $font-familyTitle: Adobe;
-  $font-familyTitle: Adobe;
   padding-top: 5%;
   text-align: center;
   color: rgba(20, 39, 74, 1);
@@ -204,7 +201,7 @@ h2 {
   word-spacing: normal;
 }
 
-h1 {
+.room_title {
   font-size: larger;
   font-weight: bolder;
   letter-spacing: 2px;
@@ -215,7 +212,7 @@ h1 {
   background-color: $mainColor;
 }
 
-h2 {
+.singleroom_title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -224,15 +221,50 @@ h2 {
   letter-spacing: 3px;
   background-color: rgba(20, 39, 74, 1);
   text-align: center;
-  $font-familyText: Montserrat;
+  
 }
 
-.details_bar {
+.doubleroom_title{
+  border: 1px solid darkblue;
+  height: 10vh;
+  padding-top: 5%;
+  color: aliceblue;
+  font-size: 45px;
+  letter-spacing: 3px;
+  background-color: rgba(20, 39, 74, 1);
+  text-align: center;
+}
+
+.twinroom_title{
+  border: 1px solid darkblue;
+  height: 10vh;
+  padding-top: 5%;
+  color: aliceblue;
+  font-size: 45px;
+  letter-spacing: 3px;
+  background-color: rgba(20, 39, 74, 1);
+  text-align: center;
+}
+
+.details_button {
   display: grid;
   padding-top: 5%;
-  $font-familyText: Montserrat;
   font-weight: 600;
 }
+button.round{
+ width: 70px; height: 70px; /* Размеры кнопки */
+ background-color: #fbf9f9; /* Цвет фона */
+ border-radius: 40%; /* Радиус скругления */
+
+}
+button{
+  border: 0px;
+  border-radius: 8px;
+  padding:2%;
+  color: rgb(255, 255, 255);
+  background-color: $button-color;
+  font-size: 20px;
+  font-weight: 600;}
 
 .price_bar {
   display: grid;
@@ -245,6 +277,10 @@ h2 {
 
 .details_and_price {
   border: 1px solid darkblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 .header__container-rooms {
@@ -253,6 +289,7 @@ h2 {
   background-size: cover;
   max-height: 1080px;
 }
+
 
 // FOOTER
 
