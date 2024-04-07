@@ -70,6 +70,8 @@ a {
 
 .header__container {
   height: 100vh;
+  max-width: 1500px;
+  padding: 0 100px 0 100px;
 }
 
 //  HOME
@@ -79,12 +81,11 @@ a {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 1080px;
 }
 
 .header__title {
   max-width: 40%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .header__title-main {
@@ -111,11 +112,15 @@ a {
   font-size: 25px;
 }
 
+.header__book {
+  display: grid;
+  justify-content: center;
+}
+
 .header__book-btn {
-  margin-bottom: 80px;
-  padding: 22px 34px 28px 34px;
+  margin-bottom: 30px;
+  padding: 18px 24px 18px 24px;
   text-transform: uppercase;
-  align-self: center;
   font-size: 25px;
 }
 
@@ -526,7 +531,7 @@ textarea {
 }
 
 .header__contact {
-  max-height: 466px;
+  max-height: 366px;
   background-color: $headerColor;
 }
 
