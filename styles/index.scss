@@ -49,7 +49,7 @@ a {
   grid-template-columns: auto 1fr;
   justify-items: end;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .nav__list {
@@ -68,6 +68,10 @@ a {
   color: $textColor;
 }
 
+.header__container {
+  height: 100vh;
+}
+
 //  HOME
 
 // HEADER
@@ -80,13 +84,14 @@ a {
 
 .header__title {
   max-width: 40%;
-  margin-bottom: 108px;
+  margin-bottom: 50px;
 }
 
 .header__title-main {
   display: grid;
   justify-items: start;
   color: $textColor;
+  line-height: 0.9;
 }
 
 .header__title-firstLine {
@@ -184,7 +189,6 @@ h2 {
 }
 
 // ROOMS
-@import url(./fonts.css);
 
 .rooms {
   display: grid;
@@ -221,7 +225,7 @@ h2 {
   letter-spacing: 3px;
   background-color: rgba(20, 39, 74, 1);
   text-align: center;
-  
+
 }
 
 .doubleroom_title{
@@ -251,11 +255,11 @@ h2 {
   padding-top: 5%;
   font-weight: 600;
 }
+
 button.round{
  width: 70px; height: 70px; /* Размеры кнопки */
  background-color: #fbf9f9; /* Цвет фона */
  border-radius: 40%; /* Радиус скругления */
-
 }
 button{
   border: 0px;
@@ -495,4 +499,18 @@ textarea {
   resize: none;
   border-radius: 0%;
   border-color: #14274a5d;
+}
+
+.header__contact {
+  max-height: 466px;
+  background-color: $headerColor;
+}
+
+.header__contact-title {
+  display: grid;
+  justify-content: center;
+  color: $textColor;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
