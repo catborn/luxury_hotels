@@ -330,31 +330,35 @@ button {
 .footer {
   background-image: url(../images/Union.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: end;
   padding-top: 35px;
   min-height: 100%;
   width: 100%;
 }
+
 .container__footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
-  color: white;
+  color: $textColor;
   margin: 35px 35px 35px 35px;
 }
+
 .footer__section {
   display: grid;
   width: 100%;
   height: 100%;
-  margin: 40px 40px 40px 40px;
+  margin: 35px 35px 35px 35px;
 }
+
 .link {
   text-decoration: none;
   color: inherit;
 }
+
 .footer__title {
-  font-family: Adobe;
+  font-family: $font-familyTitle;
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
@@ -362,75 +366,83 @@ button {
   text-align: left;
   margin-bottom: 15px;
 }
+
 .footer__contacts {
-  font-family: Montserrat;
+  font-family: $font-familyText;
   font-size: 14px;
   font-weight: 400;
   line-height: 17.07px;
   text-align: left;
 }
+
 .footer__menu {
-  font-family: Montserrat;
+  font-family: $font-familyText;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
   text-align: left;
 }
+
 .footer__menu-link {
   padding-bottom: 17px;
 }
+
 .footer__social {
-  font-family: Montserrat;
+  font-family: $font-familyText;
   font-size: 16px;
   font-weight: 400;
   line-height: 31.18px;
   text-align: left;
 }
+
 .footer__social-img {
   margin-right: 25px;
   width: 15px;
 }
+
 .footer__section-text {
-  font-family: Montserrat;
+  font-family: $font-familyText;
   font-size: 16px;
   font-weight: 400;
   line-height: 10.5px;
   text-align: left;
 }
+
 .footer__section-form {
   display: flex;
   height: min-content;
   margin-top: -70px;
 }
+
 /* кнопка */
 .footer__section-btn {
   display: inline-block;
-  font-family: Montserrat;
+  font-family: $font-familyText;
   font-weight: 700;
-  color: rgba(20, 39, 74, 1);
+  color: $contact-color;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: rgba(224, 185, 115, 1);
-  border: 1px solid rgba(224, 185, 115, 1);
+  background-color: $button-color;
+  border: 1px solid $button-color;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 0.25rem;
   transition: background-color 0.15s ease-in-out;
 }
+
 .footer__section-btn:hover {
-  background-color: rgba (224, 185, 115, 1);
+  background-color: $button-color;
 }
+
 .footer__section-input {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
   position: relative;
-  color: rgb(255, 255, 255);
-  background-color: rgba(20, 39, 74, 1);
-  border: 1px solid rgba(224, 185, 115, 1);
+  color: $textColor;
+  background-color: $mainColor;
+  border: 1px solid $button-color;
 }
 
 //contact form style//
