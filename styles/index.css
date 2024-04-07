@@ -191,9 +191,10 @@ a {
   text-align: center;
   align-self: end;
   font-size: 2rem;
+  font-weight: bold;
 }
 
-main img {
+.image__facilities {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
