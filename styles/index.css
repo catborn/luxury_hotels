@@ -7,6 +7,90 @@
   font-family: Montserrat;
   src: url("/luxury_hotels/fonts/Montserrat-Regular.woff");
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #E0B973;
+  color: #ffffff;
+  border-radius: 12px;
+  border: none;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: end;
+  align-items: center;
+  margin-bottom: 190px;
+}
+
+.nav__list {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 100px;
+}
+
+.nav__list-item {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.nav__list-item:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.header__container {
+  background-image: url("../images/img_home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 1080px;
+}
+
+.header__title {
+  max-width: 40%;
+  margin-bottom: 108px;
+}
+
+.header__title-main {
+  display: grid;
+  justify-items: start;
+}
+
+.header__book-btn {
+  margin-bottom: 80px;
+  padding: 22px 34px 28px 34px;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.header__book-btn-svg {
+  margin-right: 16px;
+}
+
+.header__scroll {
+  display: grid;
+  justify-content: center;
+}
+
+.header__scroll-text {
+  margin-bottom: 8px;
+}
+
+.header__scroll-img {
+  width: 60px;
+  height: 60px;
+}
+
 .container span p {
   font-family: Montserrat;
   font-size: 36px;

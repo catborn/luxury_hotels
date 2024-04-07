@@ -12,15 +12,100 @@
 	src: url('/luxury_hotels/fonts/Montserrat-Regular.woff');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
 
-//  home
+ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.btn {
+  background-color: $button-color;
+  color: $textColor;
+  border-radius: 12px;
+  border: none;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: end;
+  align-items: center;
+  margin-bottom: 190px;
+}
+
+.nav__list {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 100px;
+}
+
+.nav__list-item {
+  font-size: 25px;
+  color: $textColor;
+}
+
+.nav__list-item:hover {
+  text-decoration: underline;
+  color: $textColor;
+}
+
+                                                  //  HOME
+
+                                                  // HEADER
+.header__container {
+  background-image: url('../images/img_home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 1080px;
+}
+
+.header__title {
+  max-width: 40%;
+  margin-bottom: 108px;
+}
+
+.header__title-main {
+  display: grid;
+  justify-items: start;
+}
+
+.header__book-btn {
+  margin-bottom: 80px;
+  padding: 22px 34px 28px 34px;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.header__book-btn-svg {
+  margin-right: 16px;
+}
+
+.header__scroll {
+  display: grid;
+  justify-content: center;
+}
+
+.header__scroll-text {
+  margin-bottom: 8px;
+}
+
+.header__scroll-img {
+  width: 60px;
+  height: 60px;
+}
+
+                                                          // FOOTER
+
 .container span p {
   font-family: Montserrat;
   font-size: 36px;
   color:rgba(20, 39, 74, 1)
 }
-
-
 
 
 // FACILITIES
@@ -48,29 +133,31 @@ h2 {
 
 .rooms{
   display: grid;
-  
+
 }
 
 .first_room_header{
   $font-familyText: Montserrat;
-  $font-familyTitle: Adobe; 
+  $font-familyTitle: Adobe;
   text-align: center;
   color: rgba(20, 39, 74, 1);
   font-size:larger;
   padding: 0%;
   word-spacing: normal;
 }
+
 h1{
   font-size:larger;
   font-weight: bolder;
   letter-spacing: 2px;
   font-size: xx-large;
 }
+
 .first_room {
   background-color: $mainColor;
   border: 1px solid darkblue;
-  
 }
+
 h2{
   border: 1px solid darkblue;
   height: 15vh;
@@ -82,6 +169,7 @@ h2{
   text-align:center;
   $font-familyText: Montserrat;
 }
+
 .details_bar{
   display: grid;
   padding-top: 5%;
@@ -95,9 +183,9 @@ h2{
   font-weight: 600;
   justify-items:end;
 }
-.details_and_price{
-border: 1px solid darkblue; 
-}
-img{
 
+.details_and_price{
+border: 1px solid darkblue;
 }
+
+
