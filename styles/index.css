@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(./fonts.css);
 @font-face {
   font-family: Adobe;
   src: url("/luxury_hotels/fonts/AGaramondPro-Bold.woff");
@@ -46,7 +45,7 @@ a {
   grid-template-columns: auto 1fr;
   justify-items: end;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .nav__list {
@@ -65,6 +64,10 @@ a {
   color: #ffffff;
 }
 
+.header__container {
+  height: 100vh;
+}
+
 .header__container-home {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
@@ -74,13 +77,14 @@ a {
 
 .header__title {
   max-width: 40%;
-  margin-bottom: 108px;
+  margin-bottom: 50px;
 }
 
 .header__title-main {
   display: grid;
   justify-items: start;
   color: #ffffff;
+  line-height: 0.9;
 }
 
 .header__title-firstLine {
@@ -156,22 +160,47 @@ a {
   max-height: 1080px;
 }
 
-.container {
+.main__container-facilities {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: 90%;
   grid-template-rows: max-content;
   text-align: center;
-  font-family: Montserrat;
+  grid-row-gap: 1%;
 }
 
-.container h1,
-h2 {
-  font-family: Adobe;
+.main__image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat 6, 10fr 1fr;
+  grid-row-gap: 10px;
 }
 
-.card {
+.image__card {
+  grid-area: 1/1/3/4;
+}
+
+.image__label {
+  grid-area: 2/2/3/3;
+  background-color: white;
+  text-align: center;
+  align-self: end;
+  font-size: 2rem;
+}
+
+main img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.button_tesimonials {
+  border: 0;
+}
+
+.button_tesimonials:hover {
+  transform: scale(1.2);
 }
 
 .rooms {
@@ -188,7 +217,7 @@ h2 {
   word-spacing: normal;
 }
 
-h1 {
+.room_title {
   font-size: larger;
   font-weight: bolder;
   letter-spacing: 2px;
@@ -199,7 +228,7 @@ h1 {
   background-color: white darkblue yellow;
 }
 
-h2 {
+.singleroom_title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -210,9 +239,48 @@ h2 {
   text-align: center;
 }
 
-.details_bar {
+.doubleroom_title {
+  border: 1px solid darkblue;
+  height: 10vh;
+  padding-top: 5%;
+  color: aliceblue;
+  font-size: 45px;
+  letter-spacing: 3px;
+  background-color: rgb(20, 39, 74);
+  text-align: center;
+}
+
+.twinroom_title {
+  border: 1px solid darkblue;
+  height: 10vh;
+  padding-top: 5%;
+  color: aliceblue;
+  font-size: 45px;
+  letter-spacing: 3px;
+  background-color: rgb(20, 39, 74);
+  text-align: center;
+}
+
+.details_button {
   display: grid;
   padding-top: 5%;
+  font-weight: 600;
+}
+
+button.round {
+  width: 70px;
+  height: 70px; /* Размеры кнопки */
+  background-color: #fbf9f9; /* Цвет фона */
+  border-radius: 40%; /* Радиус скругления */
+}
+
+button {
+  border: 0px;
+  border-radius: 8px;
+  padding: 2%;
+  color: rgb(255, 255, 255);
+  background-color: #E0B973;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -227,6 +295,9 @@ h2 {
 
 .details_and_price {
   border: 1px solid darkblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .header__container-rooms {
@@ -450,4 +521,18 @@ textarea {
   resize: none;
   border-radius: 0%;
   border-color: rgba(20, 39, 74, 0.3647058824);
+}
+
+.header__contact {
+  max-height: 466px;
+  background-color: #13274a;
+}
+
+.header__contact-title {
+  display: grid;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
 }/*# sourceMappingURL=index.css.map */
