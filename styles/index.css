@@ -49,7 +49,7 @@ ul, li, a {
   color: #ffffff;
 }
 
-.header__container {
+.header__container-home {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,6 +95,13 @@ ul, li, a {
   font-family: Montserrat;
   font-size: 36px;
   color: rgb(20, 39, 74);
+}
+
+.header__container-facilities {
+  background-image: url("../images/img_facilities.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 1080px;
 }
 
 .container {
@@ -168,4 +175,11 @@ h2 {
 
 .details_and_price {
   border: 1px solid darkblue;
+}
+
+.header__container-rooms {
+  background-image: url("../images/img_rooms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 1080px;
 }/*# sourceMappingURL=index.css.map */
