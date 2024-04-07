@@ -14,6 +14,14 @@
   box-sizing: boder-box;
 }
 
+html {
+  font-family: Montserrat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Adobe;
+}
+
 ul,
 li,
 a {
@@ -67,30 +75,24 @@ a {
 .header__title-main {
   display: grid;
   justify-items: start;
+  color: #ffffff;
 }
 
 .header__title-firstLine {
-  color: #ffffff;
   font-size: 50px;
-  font-family: Montserrat;
 }
 
 .header__title-secondLine {
-  color: #ffffff;
   font-size: 154px;
-  font-family: Adobe;
 }
 
 .header__title-thirdLine {
-  color: #ffffff;
   font-size: 50px;
-  font-family: Adobe;
 }
 
 .header__title-descr {
   color: #ffffff;
   font-size: 25px;
-  font-family: Montserrat;
 }
 
 .header__book-btn {
@@ -99,7 +101,10 @@ a {
   text-transform: uppercase;
   align-self: center;
   font-size: 25px;
-  font-family: Montserrat;
+}
+
+.header__book-btn:hover {
+  cursor: pointer;
 }
 
 .header__book-btn-svg {
@@ -115,14 +120,22 @@ a {
   margin-bottom: 8px;
   color: #ffffff;
   font-size: 25px;
-  font-family: Montserrat;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .header__scroll-img {
   width: 60px;
   height: 60px;
   margin-bottom: 38px;
+}
+
+.header__scroll-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.header__scroll-btn:hover {
+  cursor: pointer;
 }
 
 .container span p {
@@ -281,7 +294,7 @@ ul {
   text-align: left;
 }
 
-footer__section__social {
+.footer__section__social {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
@@ -289,7 +302,7 @@ footer__section__social {
   text-align: left;
 }
 
-footer__section__text {
+.footer__section__text {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
