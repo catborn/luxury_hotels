@@ -35,7 +35,7 @@ ul, li, a {
   grid-template-columns: auto 1fr;
   justify-items: end;
   align-items: center;
-  margin-bottom: 190px;
+  margin-bottom: 150px;
 }
 
 .nav__list {
@@ -74,11 +74,37 @@ ul, li, a {
   justify-items: start;
 }
 
+.header__title-firstLine {
+  color: $textColor;
+  font-size: 50px;
+  font-family: $font-familyText;
+}
+
+.header__title-secondLine {
+  color: $textColor;
+  font-size: 154px;
+  font-family: $font-familyTitle;
+}
+
+.header__title-thirdLine {
+  color: $textColor;
+  font-size: 50px;
+  font-family: $font-familyTitle;
+}
+
+.header__title-descr {
+  color: $textColor;
+  font-size: 25px;
+  font-family: $font-familyText;
+}
+
 .header__book-btn {
   margin-bottom: 80px;
   padding: 22px 34px 28px 34px;
   text-transform: uppercase;
   align-self: center;
+  font-size: 25px;
+  font-family: $font-familyText ;
 }
 
 .header__book-btn-svg {
@@ -92,11 +118,16 @@ ul, li, a {
 
 .header__scroll-text {
   margin-bottom: 8px;
+  color: $textColor;
+  font-size: 25px;
+  font-family: $font-familyText;
+  font-weight: 700;
 }
 
 .header__scroll-img {
   width: 60px;
   height: 60px;
+  margin-bottom: 38px;
 }
 
                                                           // FOOTER
