@@ -66,18 +66,19 @@ a {
 
 .header__container {
   height: 100vh;
+  max-width: 1500px;
+  padding: 0 100px 0 100px;
 }
 
 .header__container-home {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 1080px;
 }
 
 .header__title {
   max-width: 40%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .header__title-main {
@@ -104,11 +105,15 @@ a {
   font-size: 25px;
 }
 
+.header__book {
+  display: grid;
+  justify-content: center;
+}
+
 .header__book-btn {
-  margin-bottom: 80px;
-  padding: 22px 34px 28px 34px;
+  margin-bottom: 30px;
+  padding: 18px 24px 18px 24px;
   text-transform: uppercase;
-  align-self: center;
   font-size: 25px;
 }
 
@@ -186,9 +191,10 @@ a {
   text-align: center;
   align-self: end;
   font-size: 2rem;
+  font-weight: bold;
 }
 
-main img {
+.image__facilities {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -332,17 +338,12 @@ button {
   margin: 40px 40px 40px 40px;
 }
 
-.social__img {
-  margin-right: 25px;
-  width: 15px;
-}
-
 .link {
   text-decoration: none;
   color: inherit;
 }
 
-.footer__section__title {
+.footer__title {
   font-family: Adobe;
   font-size: 25px;
   font-weight: 700;
@@ -352,7 +353,7 @@ button {
   margin-bottom: 15px;
 }
 
-.footer__section__contacts {
+.footer__contacts {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
@@ -360,7 +361,7 @@ button {
   text-align: left;
 }
 
-.footer__section__menu {
+.footer__menu {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
@@ -368,11 +369,11 @@ button {
   text-align: left;
 }
 
-.footer__section__menu__li {
+.footer__menu-link {
   padding-bottom: 17px;
 }
 
-.footer__section__social {
+.footer__social {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
@@ -380,7 +381,12 @@ button {
   text-align: left;
 }
 
-.footer__section__text {
+.footer__social-img {
+  margin-right: 25px;
+  width: 15px;
+}
+
+.footer__section-text {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
@@ -388,7 +394,7 @@ button {
   text-align: left;
 }
 
-.footer__section__form {
+.footer__section-form {
   display: flex;
   height: -moz-min-content;
   height: min-content;
@@ -396,7 +402,7 @@ button {
 }
 
 /* кнопка */
-.footer__section__btn {
+.footer__section-btn {
   display: inline-block;
   font-family: Montserrat;
   font-weight: 700;
@@ -415,11 +421,11 @@ button {
   transition: background-color 0.15s ease-in-out;
 }
 
-.footer__section__btn:hover {
+.footer__section-btn:hover {
   background-color: rgba 224, 185, 115, 1;
 }
 
-.footer__section__input {
+.footer__section-input {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   position: relative;
@@ -524,15 +530,21 @@ textarea {
 }
 
 .header__contact {
-  max-height: 466px;
+  max-height: 366px;
   background-color: #13274a;
 }
 
 .header__contact-title {
   display: grid;
   justify-content: center;
+  align-content: start;
   color: #ffffff;
   font-size: 80px;
   text-transform: uppercase;
+  font-family: Montserrat;
   font-weight: 700;
+}
+
+.nav__contact {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=index.css.map */
