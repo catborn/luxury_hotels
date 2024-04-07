@@ -537,8 +537,14 @@ textarea {
 .header__contact-title {
   display: grid;
   justify-content: center;
+  align-content: start;
   color: $textColor;
   font-size: 80px;
   text-transform: uppercase;
+  font-family: $font-familyText;
   font-weight: 700;
+}
+
+.nav__contact {
+  margin-bottom: 50px;
 }
