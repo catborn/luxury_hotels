@@ -233,6 +233,7 @@ a {
   color: rgba(20, 39, 74, 1);
   font-size: larger;
   padding: 0%;
+  padding-bottom: 5%;
   word-spacing: normal;
 }
 
@@ -245,6 +246,7 @@ a {
 
 .first_room {
   background-color: $mainColor;
+
 }
 
 .singleroom_title {
@@ -314,6 +316,7 @@ a {
 .details{
   padding-left: 5%;
   padding-top: 1%;
+  color: rgba(20, 39, 74, 1);
 }
 .details_and_price {
   border: 1px solid darkblue;

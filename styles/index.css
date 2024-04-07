@@ -220,6 +220,7 @@ a {
   color: rgb(20, 39, 74);
   font-size: larger;
   padding: 0%;
+  padding-bottom: 5%;
   word-spacing: normal;
 }
 
@@ -304,6 +305,7 @@ a {
 .details {
   padding-left: 5%;
   padding-top: 1%;
+  color: rgb(20, 39, 74);
 }
 
 .details_and_price {
