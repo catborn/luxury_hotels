@@ -559,4 +559,46 @@ textarea {
 
 .nav__contact {
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .contact {
+    grid-template-columns: 4vw 1fr 4vw;
+    grid-template-rows: auto;
+  }
+  .contact__description {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    align-content: start;
+  }
+  .contact__description-title {
+    margin-top: 3vh;
+    font-size: 35px;
+  }
+  .contact__description-text {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .contact__our {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 100vw;
+    margin-top: 3vh;
+    font-size: 23px;
+  }
+  .contact__our-map {
+    display: none;
+  }
+  .contact__our-map img {
+    display: none;
+  }
+  .contact__form {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    width: 90vw;
+    margin-top: 3vh;
+    justify-self: start;
+    font-size: 19px;
+  }
 }/*# sourceMappingURL=index.css.map */
