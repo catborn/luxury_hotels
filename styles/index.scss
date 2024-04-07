@@ -250,10 +250,9 @@ main img {
   letter-spacing: 3px;
   background-color: rgba(20, 39, 74, 1);
   text-align: center;
-
 }
 
-.doubleroom_title{
+.doubleroom_title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -264,7 +263,7 @@ main img {
   text-align: center;
 }
 
-.twinroom_title{
+.twinroom_title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -281,19 +280,21 @@ main img {
   font-weight: 600;
 }
 
-button.round{
- width: 70px; height: 70px; /* Размеры кнопки */
- background-color: #fbf9f9; /* Цвет фона */
- border-radius: 40%; /* Радиус скругления */
+button.round {
+  width: 70px;
+  height: 70px; /* Размеры кнопки */
+  background-color: #fbf9f9; /* Цвет фона */
+  border-radius: 40%; /* Радиус скругления */
 }
-button{
+button {
   border: 0px;
   border-radius: 8px;
-  padding:2%;
+  padding: 2%;
   color: rgb(255, 255, 255);
   background-color: $button-color;
   font-size: 20px;
-  font-weight: 600;}
+  font-weight: 600;
+}
 
 .price_bar {
   display: grid;
@@ -309,7 +310,6 @@ button{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .header__container-rooms {
@@ -318,7 +318,6 @@ button{
   background-size: cover;
   max-height: 1080px;
 }
-
 
 // FOOTER
 
@@ -348,7 +347,7 @@ button{
   text-decoration: none;
   color: inherit;
 }
-.footer__section-title {
+.footer__title {
   font-family: Adobe;
   font-size: 25px;
   font-weight: 700;
@@ -357,7 +356,7 @@ button{
   text-align: left;
   margin-bottom: 15px;
 }
-.footer__section-contacts {
+.footer__contacts {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
