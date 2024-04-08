@@ -317,7 +317,18 @@ a {
   object-fit: cover;
 }
 
+.container__testimonials {
+  display: grid;
+  text-align: center;
+  padding: 20px;
+}
+
+.text__testimonials {
+  padding: 20px;
+}
+
 .button__tesimonials {
+  justify-content: center;
   border: 0;
 }
 
