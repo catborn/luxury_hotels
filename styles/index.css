@@ -190,12 +190,13 @@ a {
 
 .header__title {
   max-width: 40%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .header__title-main {
   display: grid;
   justify-items: start;
+  margin-bottom: 20px;
   color: #ffffff;
   line-height: 0.9;
 }
@@ -206,6 +207,7 @@ a {
 
 .header__title-secondLine {
   font-size: 154px;
+  margin: 0;
 }
 
 .header__title-thirdLine {
