@@ -2,13 +2,13 @@
 @import "_mixins";
 
 @font-face {
-  font-family: Adobe;
-  src: url("/luxury_hotels/fonts/AGaramondPro-Bold.woff");
+  font-family: 'Adobe';
+  src: url("../fonts/AGaramondPro-Bold.woff");
 }
 
 @font-face {
-  font-family: Montserrat;
-  src: url("/luxury_hotels/fonts/Montserrat-Regular.woff");
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.woff");
 }
 
 * {
@@ -274,14 +274,6 @@ a {
 
 .header__scroll-btn:hover {
   cursor: pointer;
-}
-
-// FOOTER
-
-.container span p {
-  font-family: Montserrat;
-  font-size: 36px;
-  color: rgba(20, 39, 74, 1);
 }
 
 // FACILITIES
