@@ -437,11 +437,11 @@ a {
 
 .footer {
   background-image: url(../images/Union.svg);
+  background-color: #13274a;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: end;
-  padding-top: 35px;
-  min-height: 100%;
+  min-height: 250px;
   width: 100%;
 }
 
@@ -450,7 +450,6 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
   color: #ffffff;
-  margin: 35px 35px 35px 35px;
 }
 
 .footer__section {
@@ -465,18 +464,24 @@ a {
   color: inherit;
 }
 
-.footer__title {
-  font-family: Adobe;
+.footer__title-firstLine {
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.15em;
   text-align: left;
+}
+
+.footer__title-secondLine {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 10.8px;
+  letter-spacing: 0.6em;
+  margin-left: 35px;
   margin-bottom: 15px;
 }
 
 .footer__contacts {
-  font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
   line-height: 17.07px;
@@ -484,7 +489,6 @@ a {
 }
 
 .footer__menu {
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
@@ -496,7 +500,6 @@ a {
 }
 
 .footer__social {
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 31.18px;
@@ -509,7 +512,6 @@ a {
 }
 
 .footer__section-text {
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 10.5px;
@@ -550,8 +552,9 @@ a {
 .footer__section-input {
   position: relative;
   color: #ffffff;
-  background-color: white darkblue yellow;
+  background-color: #13274a;
   border: 1px solid #E0B973;
+  border-radius: 3px;
 }
 
 .contact {
