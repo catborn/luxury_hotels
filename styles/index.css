@@ -124,6 +124,10 @@ a {
   margin-left: 20px;
 }
 
+.main__home-button:hover {
+  cursor:pointer;
+}
+
 .main__group-second {
   grid-row: 3/4;
   grid-column: 2/3;
