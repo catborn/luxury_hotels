@@ -439,24 +439,23 @@ a {
   background-image: url(../images/Union.svg);
   background-color: #13274a;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: end;
-  min-height: 250px;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  margin-top: 100px;
 }
 
 .container__footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: space-evenly;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  justify-content: space-around;
   color: #ffffff;
+  padding: 50px 100px;
 }
 
 .footer__section {
   display: grid;
-  width: 100%;
-  height: 100%;
-  margin: 35px 35px 35px 35px;
 }
 
 .link {
@@ -467,7 +466,7 @@ a {
 .footer__title-firstLine {
   font-size: 25px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 5px;
   letter-spacing: 0.15em;
   text-align: left;
 }
@@ -475,10 +474,10 @@ a {
 .footer__title-secondLine {
   font-size: 9px;
   font-weight: 700;
-  line-height: 10.8px;
+  line-height: 5px;
   letter-spacing: 0.6em;
-  margin-left: 35px;
-  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .footer__contacts {
@@ -491,7 +490,7 @@ a {
 .footer__menu {
   font-size: 16px;
   font-weight: 400;
-  line-height: 19.5px;
+  line-height: 32px;
   text-align: left;
 }
 
@@ -502,20 +501,23 @@ a {
 .footer__social {
   font-size: 16px;
   font-weight: 400;
-  line-height: 31.18px;
+  line-height: 32px;
   text-align: left;
 }
 
 .footer__social-img {
+  margin-top: 0px;
   margin-right: 25px;
+  margin-top: 0px;
   width: 15px;
 }
 
 .footer__section-text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 10.5px;
+  line-height: 32px;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 .footer__section-form {
@@ -546,7 +548,7 @@ a {
 }
 
 .footer__section-btn:hover {
-  background-color: #E0B973;
+  background-color: #ffffff;
 }
 
 .footer__section-input {
@@ -555,6 +557,7 @@ a {
   background-color: #13274a;
   border: 1px solid #E0B973;
   border-radius: 3px;
+  height: auto;
 }
 
 .contact {
