@@ -447,11 +447,11 @@ a {
 
 .footer {
   background-image: url(../images/Union.svg);
+  background-color: $headerColor;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: end;
-  padding-top: 35px;
-  min-height: 100%;
+  min-height: 250px;
   width: 100%;
 }
 
@@ -460,7 +460,6 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
   color: $textColor;
-  margin: 35px 35px 35px 35px;
 }
 
 .footer__section {
@@ -475,18 +474,24 @@ a {
   color: inherit;
 }
 
-.footer__title {
-  font-family: $font-familyTitle;
+.footer__title-firstLine {
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.15em;
   text-align: left;
+}
+
+.footer__title-secondLine {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 10.8px;
+  letter-spacing: 0.6em;
+  margin-left: 35px;
   margin-bottom: 15px;
 }
 
 .footer__contacts {
-  font-family: $font-familyText;
   font-size: 14px;
   font-weight: 400;
   line-height: 17.07px;
@@ -494,7 +499,6 @@ a {
 }
 
 .footer__menu {
-  font-family: $font-familyText;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
@@ -506,7 +510,6 @@ a {
 }
 
 .footer__social {
-  font-family: $font-familyText;
   font-size: 16px;
   font-weight: 400;
   line-height: 31.18px;
@@ -519,7 +522,6 @@ a {
 }
 
 .footer__section-text {
-  font-family: $font-familyText;
   font-size: 16px;
   font-weight: 400;
   line-height: 10.5px;
@@ -559,8 +561,9 @@ a {
 .footer__section-input {
   position: relative;
   color: $textColor;
-  background-color: $mainColor;
+  background-color: $headerColor;
   border: 1px solid $button-color;
+  border-radius: 3px;
 }
 
 //contact form style//
