@@ -2,12 +2,12 @@
 @import "_mixins";
 
 @font-face {
-  font-family: 'Adobe';
+  font-family: "Adobe";
   src: url("../fonts/AGaramondPro-Bold.woff");
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   src: url("../fonts/Montserrat-Regular.woff");
 }
 
@@ -89,7 +89,6 @@ a {
   display: grid;
   grid-template-columns: 8vw 1fr 45vw 8vw;
   grid-template-rows: 54vh 100px 43vh;
-
 }
 
 .main_group-text1 {
@@ -119,7 +118,7 @@ a {
 }
 
 .explore-main-button {
-  background-color: #E0B973;
+  background-color: #e0b973;
   width: 236px;
   height: 63px;
   border: none;
@@ -130,8 +129,6 @@ a {
   margin-top: 30px;
   margin-left: 20px;
 }
-
-
 
 .main_group-text2 {
   grid-row: 3/4;
@@ -177,7 +174,7 @@ a {
   grid-column: 3/4;
 }
 
-.main-group-photo1 img{
+.main-group-photo1 img {
   width: 100%;
 }
 
@@ -291,7 +288,7 @@ a {
   grid-template-columns: 90%;
   grid-template-rows: max-content;
   text-align: center;
-  grid-row-gap: 1%;
+  grid-row-gap: 50px;
 }
 
 .main__image {
@@ -355,7 +352,6 @@ a {
 
 .first_room {
   background-color: $mainColor;
-
 }
 
 .singleroom_title {
@@ -367,10 +363,9 @@ a {
   letter-spacing: 3px;
   background-color: rgba(20, 39, 74, 1);
   text-align: center;
-
 }
 
-.doubleroom_title{
+.doubleroom_title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -381,7 +376,7 @@ a {
   text-align: center;
 }
 
-.twinroom_title{
+.twinroom_title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -397,22 +392,24 @@ a {
   padding-top: 5%;
   font-weight: 600;
 }
-.round{
-  width: 50px; height: 50px;
+.round {
+  width: 50px;
+  height: 50px;
   background-color: #fbf9f9;
   border-radius: 40%;
 }
 
-.price{
+.price {
   border: 0px;
   border-radius: 8px;
-  padding:3%;
+  padding: 3%;
   height: 180%;
   width: 150%;
   background-color: $button-color;
   font-size: 20px;
   font-weight: 600;
-  color: rgb(255, 255, 255);}
+  color: rgb(255, 255, 255);
+}
 
 .price_bar {
   display: grid;
@@ -422,7 +419,7 @@ a {
   font-weight: 600;
   padding-left: 45%;
 }
-.details{
+.details {
   padding-left: 5%;
   padding-top: 1%;
   color: rgba(20, 39, 74, 1);
@@ -432,10 +429,10 @@ a {
   display: flex;
   flex-direction: row;
   padding-top: 5%;
-  justify-content:stretch;
+  justify-content: stretch;
 }
 
-.details_bar{
+.details_bar {
   padding-left: 15%;
 }
 
@@ -723,7 +720,7 @@ textarea {
 
   .contact__our-map img {
     display: none;
-    }
+  }
 
   .contact__form {
     grid-row: 3/4;
@@ -733,5 +730,4 @@ textarea {
     justify-self: start;
     font-size: 19px;
   }
-
 }

@@ -112,7 +112,7 @@ a {
 }
 
 .explore-main-button {
-  background-color: #E0B973;
+  background-color: #e0b973;
   width: 236px;
   height: 63px;
   border: none;
@@ -279,7 +279,7 @@ a {
   grid-template-columns: 90%;
   grid-template-rows: max-content;
   text-align: center;
-  grid-row-gap: 1%;
+  grid-row-gap: 50px;
 }
 
 .main__image {
