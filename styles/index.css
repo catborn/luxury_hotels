@@ -7,6 +7,10 @@
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-Regular.woff");
 }
+@font-face{
+  font-family: "MontserratB";
+  src: url("../fonts/Montserrat-Bold.woff");
+}
 * {
   margin: 0;
   padding: 0;
