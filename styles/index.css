@@ -163,12 +163,10 @@ a {
 
 .main_group {
   display: grid;
-  grid-template-columns: 8vw 1fr 45vw 10vw;
-  grid-template-rows: 54vh 69px 45vh;
+  grid-template-columns: 8vw 1fr 45vw 8vw;
+  grid-template-rows: 54vh 100px 43vh;
 
 }
-
-
 
 .main_group-text1 {
   grid-row: 1/2;
@@ -181,9 +179,7 @@ a {
   font-size: 60px;
   color: rgb(20, 39, 74);
   letter-spacing: 2%;
-  display: grid;
-  justify-content: start;
-  margin-left: 49px;
+  margin-left: 20px;
 }
 
 .main-group-subtitle1 {
@@ -195,7 +191,7 @@ a {
   margin-top: 25px;
   max-width: 542px;
   line-height: 40px;
-  margin-left: 49px;
+  margin-left: 20px;
 }
 
 .explore-main-button {
@@ -208,7 +204,7 @@ a {
   font-family: Montserrat;
   color: #ffffff;
   margin-top: 30px;
-  margin-left: 49px;
+  margin-left: 20px;
 }
 
 
@@ -226,7 +222,7 @@ a {
   display: grid;
   justify-content: start;
   max-width: 563px;
-  margin-left: 49px;
+  margin-left: 20px;
 }
 
 .main-group-subtitle2 {
@@ -238,19 +234,17 @@ a {
   margin-top: 12px;
   max-width: 523px;
   line-height: 40px;
-  margin-left: 49px;
+  margin-left: 20px;
 }
 
 .main_line1 {
   display: grid;
-  justify-items: start;
-  margin-top: 125px;
+  justify-content: space-between;
 }
 
 .main_line2 {
-  display: grid;
-  justify-content: start;
-  margin-top: 17px;
+  display: flex;
+  justify-items: start;
 }
 
 .main-group-photo1 {
