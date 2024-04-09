@@ -619,8 +619,9 @@ a {
 
 .contact {
   display: grid;
-  grid-template-columns: 10vw 1fr 1fr 10vw;
+  grid-template-columns: 10vw repeat(2, 1fr) 10vw;
   grid-template-rows: 30vh 70vh;
+  width: 98vw;
   color: $contact-color;
 }
 
