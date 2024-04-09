@@ -16,7 +16,6 @@
   src: url("../fonts/Montserrat-Regular.woff");
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -368,17 +367,12 @@ a {
     display: grid;
     justify-content: center;
     grid-template-columns: 100vw;
-    // grid-template-rows: max-content;
     text-align: center;
     grid-row-gap: 0%;
   }
 
   .text__testimonials {
     line-height: 1;
-  }
-
-  .footer {
-    display: none;
   }
 }
 
@@ -764,13 +758,9 @@ textarea {
     background-color: $textColor;
     margin: 5px 0;
   }
-
 }
 
-@media screen and (max-width: 767px) {
-
-  // header
-
+@media all and (max-width: 767px) {
   .header__title-secondLine {
     font-size: 100px;
   }
@@ -831,4 +821,3 @@ textarea {
     font-size: 19px;
   }
 }
-
