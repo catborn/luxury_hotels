@@ -362,9 +362,6 @@ a {
   .text__testimonials {
     line-height: 1;
   }
-  .footer {
-    display: none;
-  }
 }
 .rooms {
   display: grid;
