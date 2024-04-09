@@ -174,11 +174,11 @@ a {
   grid-column: 3/4;
 }
 
-.main__group-firstPhoto img{
+.main__group-firstPhoto img {
   width: 100%;
 }
 
-.main__group-secondPhoto  {
+.main__group-secondPhoto {
   display: grid;
   grid-row: 3/4;
   grid-column: 3/4;
@@ -337,6 +337,38 @@ a {
 
 .button__tesimonials:hover {
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 425px) {
+  .text__facilities {
+    font-size: 3rem;
+  }
+
+  .image__label {
+    grid-area: 1 / 1 / 4 / 4;
+    background-color: white;
+    text-align: center;
+    align-self: end;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .main__container-facilities {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100vw;
+    // grid-template-rows: max-content;
+    text-align: center;
+    grid-row-gap: 0%;
+  }
+
+  .text__testimonials {
+    line-height: 1;
+  }
+
+  .footer {
+    display: none;
+  }
 }
 
 // ROOMS
