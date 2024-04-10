@@ -296,7 +296,7 @@ a {
 
 .main__container-facilities {
   display: grid;
-  justify-content: space-evenly;
+  justify-content: center;
   grid-template-columns: 90%;
   grid-template-rows: max-content;
   text-align: center;
@@ -805,6 +805,28 @@ textarea {
     justify-self: start;
     font-size: 19px;
   }
+
+  //facilities
+  .text__facilities {
+    font-size: 2rem;
+  }
+
+  .image__label {
+    grid-area: 1 / 1 / 4 / 4;
+    font-size: 2rem;
+  }
+
+  .main__container-facilities {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 95vw;
+    grid-row-gap: 5px;
+  }
+
+  .text__testimonials {
+    line-height: 1.2;
+    padding: 5px;
+  }
 }
 
 @media all and (max-width: 576px) {
@@ -828,23 +850,17 @@ textarea {
 
   //facilities
   .text__facilities {
-    font-size: 3rem;
+    font-size: 2.1rem;
   }
 
   .image__label {
     grid-area: 1 / 1 / 4 / 4;
-    background-color: white;
-    text-align: center;
-    align-self: end;
     font-size: 1.6rem;
-    font-weight: bold;
   }
 
   .main__container-facilities {
     display: grid;
-    justify-content: center;
-    grid-template-columns: 100vw;
-    text-align: center;
+    grid-template-columns: 98vw;
     grid-row-gap: 0%;
   }
 
