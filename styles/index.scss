@@ -303,6 +303,10 @@ a {
   grid-row-gap: 50px;
 }
 
+.text__facilities {
+  // color: $headerColor;
+}
+
 .main__image {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -321,6 +325,7 @@ a {
   align-self: end;
   font-size: 2rem;
   font-weight: bold;
+  color: $headerColor;
 }
 
 .image__facilities {
