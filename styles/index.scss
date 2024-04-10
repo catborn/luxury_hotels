@@ -476,7 +476,6 @@ a {
 // FOOTER
 
 .footer {
-  background-image: url(../images/Union.svg);
   background-color: $headerColor;
   background-repeat: no-repeat;
   background-size: cover;
@@ -488,14 +487,16 @@ a {
 
 .container__footer {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  justify-content: space-around;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 40px;
+  justify-content: space-evenly;
   color: $textColor;
   padding: 50px 100px;
 }
 
 .footer__section {
   display: grid;
+  overflow: hidden;
 }
 
 .link {
@@ -512,64 +513,58 @@ a {
 }
 
 .footer__title-secondLine {
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
-  line-height: 5px;
+  line-height: 4px;
   letter-spacing: 0.6em;
-  margin-left: 20px;
+  margin-left: 24px;
   margin-bottom: 30px;
 }
 
 .footer__contacts {
   font-size: 14px;
   font-weight: 400;
-  line-height: 17.07px;
+  line-height: 16px;
   text-align: left;
 }
 
 .footer__menu {
   font-size: 16px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 40px;
   text-align: left;
-}
-
-.footer__menu-link {
-  padding-bottom: 17px;
 }
 
 .footer__social {
   font-size: 16px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 36px;
   text-align: left;
 }
 
 .footer__social-img {
-  margin-top: 0px;
   margin-right: 25px;
-  margin-top: 0px;
   width: 15px;
 }
 
 .footer__section-text {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 32px;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .footer__section-form {
   display: flex;
-  height: min-content;
-  margin-top: -70px;
+  margin-top: -50px;
+  height: 50px;
+  width: 360px;
 }
 
-/* кнопка */
 .footer__section-btn {
   display: inline-block;
-  font-family: $font-familyText;
+  width: 80px;
   font-weight: 700;
   color: $contact-color;
   text-align: center;
@@ -594,9 +589,9 @@ a {
   position: relative;
   color: $textColor;
   background-color: $headerColor;
-  border: 1px solid $button-color;
+  border: 2px solid $button-color;
   border-radius: 3px;
-  height: auto;
+  width: 280px;
 }
 
 //contact form style//
