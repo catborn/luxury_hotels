@@ -8,6 +8,11 @@
 
 @font-face {
   font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
   src: url("../fonts/Montserrat-Regular.woff");
 }
 
@@ -49,13 +54,13 @@ a {
   grid-template-columns: auto 1fr;
   justify-items: end;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .nav__list {
   display: grid;
   grid-auto-flow: column;
-  gap: 100px;
+  gap: 80px;
 }
 
 .nav__list-item {
@@ -71,7 +76,11 @@ a {
 .header__container {
   height: 100vh;
   max-width: 1500px;
-  padding: 0 100px 0 100px;
+  padding: 0 50px 0 50px;
+}
+
+.burger-menu {
+  display: none;
 }
 
 //  HOME
@@ -174,11 +183,11 @@ a {
   grid-column: 3/4;
 }
 
-.main__group-firstPhoto img{
+.main__group-firstPhoto img {
   width: 100%;
 }
 
-.main__group-secondPhoto  {
+.main__group-secondPhoto {
   display: grid;
   grid-row: 3/4;
   grid-column: 3/4;
@@ -193,10 +202,11 @@ a {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .header__title {
-  max-width: 40%;
+  max-width: 50%;
   margin-bottom: 40px;
 }
 
@@ -205,15 +215,16 @@ a {
   justify-items: start;
   margin-bottom: 20px;
   color: $textColor;
-  line-height: 0.9;
+  line-height: 0.8;
 }
 
 .header__title-firstLine {
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
 .header__title-secondLine {
-  font-size: 154px;
+  font-size: 150px;
   margin: 0;
 }
 
@@ -223,7 +234,7 @@ a {
 
 .header__title-descr {
   color: $textColor;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .header__book {
@@ -232,10 +243,10 @@ a {
 }
 
 .header__book-btn {
-  margin-bottom: 30px;
-  padding: 18px 24px 18px 24px;
+  margin-bottom: 20px;
+  padding: 16px 20px 16px 20px;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .header__book-btn:hover {
@@ -254,13 +265,13 @@ a {
 .header__scroll-text {
   margin-bottom: 8px;
   color: $textColor;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .header__scroll-img {
-  width: 60px;
-  height: 60px;
+  width: 61px;
+  height: 61px;
   margin-bottom: 38px;
 }
 
@@ -280,6 +291,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1080px;
+  background-position: center;
 }
 
 .main__container-facilities {
@@ -337,6 +349,33 @@ a {
 
 .button__tesimonials:hover {
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 425px) {
+  .text__facilities {
+    font-size: 3rem;
+  }
+
+  .image__label {
+    grid-area: 1 / 1 / 4 / 4;
+    background-color: white;
+    text-align: center;
+    align-self: end;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .main__container-facilities {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100vw;
+    text-align: center;
+    grid-row-gap: 0%;
+  }
+
+  .text__testimonials {
+    line-height: 1;
+  }
 }
 
 // ROOMS
@@ -450,6 +489,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1080px;
+  background-position: center;
 }
 
 // FOOTER
@@ -582,8 +622,9 @@ a {
 
 .contact {
   display: grid;
-  grid-template-columns: 10vw 1fr 1fr 10vw;
+  grid-template-columns: 10vw repeat(2, 1fr) 10vw;
   grid-template-rows: 30vh 70vh;
+  width: 98vw;
   color: $contact-color;
 }
 
@@ -697,7 +738,45 @@ textarea {
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 576px) {
+@media all and (max-width: 1024px) {
+  .nav__list {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // padding: 10px 20px;
+  }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: $textColor;
+    margin: 5px 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header__title-secondLine {
+    font-size: 100px;
+  }
+
+  .header__scroll {
+    display: none;
+  }
+
+  .header__contact-title {
+    font-size: 60px;
+  }
+
   //contact form//
   .contact {
     grid-template-columns: 4vw 1fr 4vw;
@@ -744,5 +823,24 @@ textarea {
     margin-top: 3vh;
     justify-self: start;
     font-size: 19px;
+  }
+}
+
+@media all and (max-width:576px) {
+  .header__title-secondLine {
+    font-size: 70px;
+  }
+
+  .header__title-firstLine, .header__title-thirdLine {
+    font-size: 40px;
+}
+
+  .header__logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .header__contact-title {
+    font-size: 40px;
   }
 }
