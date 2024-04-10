@@ -358,34 +358,6 @@ a {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 425px) {
-  .text__facilities {
-    font-size: 3rem;
-  }
-
-  .image__label {
-    grid-area: 1 / 1 / 4 / 4;
-    background-color: white;
-    text-align: center;
-    align-self: end;
-    font-size: 1.6rem;
-    font-weight: bold;
-  }
-
-  .main__container-facilities {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 100vw;
-    text-align: center;
-    grid-row-gap: 0%;
-  }
-
-  .text__testimonials {
-    line-height: 1;
-    padding: 5px;
-  }
-}
-
 // ROOMS
 
 .rooms {
@@ -852,5 +824,32 @@ textarea {
 
   .header__contact-title {
     font-size: 40px;
+  }
+
+  //facilities
+  .text__facilities {
+    font-size: 3rem;
+  }
+
+  .image__label {
+    grid-area: 1 / 1 / 4 / 4;
+    background-color: white;
+    text-align: center;
+    align-self: end;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .main__container-facilities {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100vw;
+    text-align: center;
+    grid-row-gap: 0%;
+  }
+
+  .text__testimonials {
+    line-height: 1;
+    padding: 5px;
   }
 }
