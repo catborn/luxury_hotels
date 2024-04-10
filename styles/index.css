@@ -81,7 +81,7 @@ a {
 .main__home-p {
   font-family: Montserrat;
   font-size: 36px;
-  color: #13274a;
+  color: rgb(20, 39, 74);
   text-align: center;
   margin-top: 86px;
   margin-bottom: 93px;
@@ -330,12 +330,13 @@ a {
   padding: 20px;
   line-height: 2;
   font-size: 1.5em;
-  color: rgb(20, 39, 74);
+  color: #13274a;
 }
 
 .button__tesimonials {
   justify-content: center;
   border: 0;
+  background-color: transparent;
 }
 
 .button__tesimonials:hover {
@@ -798,7 +799,8 @@ textarea {
   .header__title-secondLine {
     font-size: 70px;
   }
-  .header__title-firstLine, .header__title-thirdLine {
+  .header__title-firstLine,
+  .header__title-thirdLine {
     font-size: 40px;
   }
   .header__logo {

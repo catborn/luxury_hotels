@@ -339,12 +339,13 @@ a {
   padding: 20px;
   line-height: 2;
   font-size: 1.5em;
-  color: rgb(20, 39, 74);
+  color: $headerColor;
 }
 
 .button__tesimonials {
   justify-content: center;
   border: 0;
+  background-color: transparent;
 }
 
 .button__tesimonials:hover {
@@ -826,14 +827,15 @@ textarea {
   }
 }
 
-@media all and (max-width:576px) {
+@media all and (max-width: 576px) {
   .header__title-secondLine {
     font-size: 70px;
   }
 
-  .header__title-firstLine, .header__title-thirdLine {
+  .header__title-firstLine,
+  .header__title-thirdLine {
     font-size: 40px;
-}
+  }
 
   .header__logo {
     width: 100px;
