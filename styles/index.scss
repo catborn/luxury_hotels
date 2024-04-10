@@ -375,7 +375,10 @@ a {
   padding-bottom: 5%;
   word-spacing: normal;
 }
-
+.image_rooms{
+  max-width: 100%;
+  max-height: 100%; 
+}
 .room_title {
   font-size: larger;
   font-weight: bolder;
@@ -855,7 +858,31 @@ textarea {
     line-height: 1.2;
     padding: 5px;
   }
+  //rooms
+  .first_room_header{
+    font-size: 1rem;
+  }
+
+  .singleroom_title,
+  .doubleroom_title,
+  .twinroom_title,
+  .details_and_price
+  {
+    grid-area: 1 / 1 / 4 / 4;
+    font-size: 2rem;}
+
+  .rooms{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 95vw;
+    grid-row-gap: 5px;
+} 
+.price{
+  height: 100%;
+  width: 100%;
 }
+}
+
 
 @media all and (max-width: 576px) {
   .header__title-secondLine {
@@ -900,4 +927,32 @@ textarea {
     line-height: 1;
     padding: 5px;
   }
+//rooms
+.first_room_header{
+  font-size: 2rem;
+  padding-left: 10%;
 }
+.singleroom_title,
+.doubleroom_title,
+.twinroom_title,
+.details_and_price{
+  grid-area: 1 / 1 / 4 / 4;
+  font-size: 1.6rem;
+}
+.rooms{
+  display: grid;
+  grid-template-columns: 98vw;
+  grid-row-gap: 0%;
+}
+.details_and_price{
+  font-size: 0.5rem;
+}
+.price{
+font-size: 0.8rem;
+
+}
+.price_bar{
+  padding-right: 10%;
+}
+}
+
