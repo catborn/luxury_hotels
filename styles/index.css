@@ -553,7 +553,7 @@ a {
 
 .footer__section-btn {
   display: inline-block;
-  width: 80px;
+  width: auto;
   font-weight: 700;
   color: #14274A;
   text-align: center;
@@ -580,7 +580,8 @@ a {
   background-color: #13274a;
   border: 2px solid #E0B973;
   border-radius: 3px;
-  width: 280px;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .contact {
@@ -721,6 +722,19 @@ textarea {
     background-color: #ffffff;
     margin: 5px 0;
   }
+  .container__footer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 60vw 1fr;
+    font-size: 12;
+    padding: 40px;
+  }
+  .footer__section:nth-child(2) {
+    display: none;
+  }
+  .footer__section:last-child {
+    display: none;
+  }
 }
 @media all and (max-width: 767px) {
   .header__title-secondLine {
@@ -731,6 +745,20 @@ textarea {
   }
   .header__contact-title {
     font-size: 60px;
+  }
+  .container__footer {
+    display: flex;
+    justify-content: center;
+    font-size: 8;
+  }
+  .footer__section:first-child {
+    display: none;
+  }
+  .footer__section:nth-child(2) {
+    display: none;
+  }
+  .footer__section:last-child {
+    display: none;
   }
   .contact {
     grid-template-columns: 4vw 1fr 4vw;
@@ -803,6 +831,9 @@ textarea {
   }
   .header__contact-title {
     font-size: 40px;
+  }
+  .footer {
+    display: none;
   }
   .text__facilities {
     font-size: 2.1rem;
