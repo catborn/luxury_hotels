@@ -194,6 +194,7 @@ a {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .header__title {
@@ -280,6 +281,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1080px;
+  background-position: center;
 }
 
 .main__container-facilities {
@@ -475,6 +477,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1080px;
+  background-position: center;
 }
 
 .footer {
@@ -789,5 +792,20 @@ textarea {
     margin-top: 3vh;
     justify-self: start;
     font-size: 19px;
+  }
+}
+@media all and (max-width: 576px) {
+  .header__title-secondLine {
+    font-size: 70px;
+  }
+  .header__title-firstLine, .header__title-thirdLine {
+    font-size: 40px;
+  }
+  .header__logo {
+    width: 100px;
+    height: 100px;
+  }
+  .header__contact-title {
+    font-size: 40px;
   }
 }/*# sourceMappingURL=index.css.map */
