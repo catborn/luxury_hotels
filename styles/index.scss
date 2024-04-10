@@ -383,7 +383,8 @@ a {
 
 .rooms {
   display: grid;
-  justify-content: space-evenly;
+  width: 85vw;
+  justify-content: center;
 }
 
 .first_room_header {
