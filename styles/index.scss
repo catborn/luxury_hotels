@@ -485,22 +485,18 @@ a {
 // FOOTER
 
 .footer {
-  background-color: $headerColor;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: end;
-  min-height: 100%;
-  min-width: 100%;
-  margin-top: 100px;
+  margin-top: 120px;
+  height: 240px;
+  background-color: $headerColor;
 }
 
 .container__footer {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
-  gap: 40px;
-  justify-content: space-evenly;
+  grid-template-columns: 32% repeat(2, 16%) 36%;
+  justify-content: space-between;
+  padding: 40px 70px;
   color: $textColor;
-  padding: 50px 100px;
 }
 
 .footer__section {
@@ -522,12 +518,12 @@ a {
 }
 
 .footer__title-secondLine {
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 4px;
-  letter-spacing: 0.6em;
   margin-left: 24px;
   margin-bottom: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 5px;
+  letter-spacing: 0.6em;
 }
 
 .footer__contacts {
@@ -556,25 +552,40 @@ a {
   width: 15px;
 }
 
+.footer__section:nth-child(2) {
+  display: grid;
+  justify-content: start;
+}
+
+.footer__section:nth-child(3) {
+  display: grid;
+  justify-content: center;
+}
+
+.footer__section:last-child {
+  display: grid;
+  justify-content: end;
+}
+
 .footer__section-text {
+  margin-bottom: 80px;
   font-size: 16px;
   font-weight: 400px;
   line-height: 32px;
   text-align: left;
-  margin-bottom: 80px;
 }
 
 .footer__section-form {
   display: flex;
   margin-top: -50px;
-  height: 50px;
-  width: 360px;
+  height: 40px;
+  width: 320px;
 }
 
 .footer__section-btn {
   display: inline-block;
-  width: auto;
-  font-weight: 700;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
   color: $contact-color;
   text-align: center;
   vertical-align: middle;
@@ -584,8 +595,8 @@ a {
   user-select: none;
   background-color: $button-color;
   border: 1px solid $button-color;
-  padding: 0.375rem 0.75rem;
   font-size: 1rem;
+  font-weight: 700;
   border-radius: 0.25rem;
   transition: background-color 0.15s ease-in-out;
 }
@@ -600,7 +611,7 @@ a {
   background-color: $headerColor;
   border: 2px solid $button-color;
   border-radius: 3px;
-  width: max-content;
+  width: 240px;
 }
 
 //contact form style//
@@ -748,12 +759,16 @@ textarea {
     margin: 5px 0;
   }
 
+  .footer {
+    height: max-content;
+    padding: 4%;
+  }
+
   .container__footer {
     display: grid;
-    justify-content: space-between;
+    justify-content: space-evenly;
     grid-template-columns: 60vw 1fr;
-    font-size: 12;
-    padding: 40px;
+    padding: 4%;
   }
 
   .footer__section:nth-child(2) {
@@ -781,6 +796,10 @@ textarea {
 
   .header__contact-title {
     font-size: 60px;
+  }
+
+  .footer {
+    height: min-content;
   }
 
   .container__footer {
@@ -912,7 +931,6 @@ textarea {
     font-size: 40px;
   }
 
-
   //facilities
   .text__facilities {
     font-size: 2.1rem;
@@ -961,92 +979,3 @@ textarea {
     padding-right: 10%;
   }
 }
-
-//home
-@media all and (max-width: 1467px) {
-  .main__group-first {
-    margin-top: 0px;
-  }
-  .main__group-first::before,
-  .main__group-second::before {
-    display: none;
-  }
-  .main__group {
-    display: grid;
-    grid-template-rows: 45vh 10vh 45vh;
-  }
-}
-
-@media all and (max-width: 1271px) {
-  .main__group {
-    display: grid;
-    grid-template-columns: 5vw 90vw 5vw;
-    grid-template-rows: 1fr 50vh 1fr 45vh;
-  }
-
-  .main__group-firstPhoto {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    width: 100%;
-  }
-
-  .main__group-secondPhoto {
-    grid-row: 3/4;
-    grid-column: 2/3;
-  }
-
-  .main__group-first {
-    display: grid;
-    grid-row: 2/3;
-    grid-column: 2/3;
-    text-align: center;
-    align-content: space-around;
-    margin-bottom: 30px;
-  }
-
-  .main__group-second {
-    display: grid;
-    grid-row: 6/7;
-    grid-column: 2/3;
-    text-align: center;
-    align-items: center;
-  }
-
-  .first-group__subtitle {
-    text-align: center;
-    max-width: fit-content;
-  }
-
-  .main__group-second {
-    grid-row: 4/5;
-    grid-column: 2/3;
-  }
-
-  .second-group__title {
-    text-align: center;
-    max-width: fit-content;
-  }
-
-  .second-group__subtitle {
-    text-align: center;
-    max-width: fit-content;
-  }
-
-  .mainhome,
-  .containertestimonials {
-    margin-top: 70px;
-  }
-}
-
-@media all and (max-width: 630px) {
-  .main__group {
-    display: grid;
-    grid-template-columns: 5vw 90vw 5vw;
-    grid-template-rows: 1fr 70vh 1fr 60vh;
-  }
-
-  .main__group-second {
-    margin-bottom: 70px;
-  }
-}
-
