@@ -378,7 +378,7 @@ a {
   padding-bottom: 5%;
   word-spacing: normal;
 }
-.image_rooms{
+.image_rooms {
   max-width: 100%;
   max-height: 100%;
 }
@@ -760,15 +760,15 @@ textarea {
   .footer__section:last-child {
     display: none;
   }
-//rooms
-.price{
-  height: 100%;
-  width: 100%;
-}
-.details_and_price{
-display: flex;
-justify-content: space-between
-}
+  //rooms
+  .price {
+    height: 100%;
+    width: 100%;
+  }
+  .details_and_price {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -871,28 +871,28 @@ justify-content: space-between
     padding: 5px;
   }
   //rooms
-  .first_room_header{
+  .first_room_header {
     font-size: 1rem;
   }
 
   .singleroom_title,
   .doubleroom_title,
   .twinroom_title,
-  .details_and_price
-  {
+  .details_and_price {
     grid-area: 1 / 1 / 4 / 4;
-    font-size: 2rem;}
+    font-size: 2rem;
+  }
 
-  .rooms{
+  .rooms {
     display: grid;
     justify-content: center;
     grid-template-columns: 95vw;
     grid-row-gap: 5px;
-}
-.price{
-  height: 100%;
-  width: 100%;
-}
+  }
+  .price {
+    height: 100%;
+    width: 100%;
+  }
 }
 @media all and (max-width: 576px) {
   .header__title-secondLine {
@@ -938,32 +938,118 @@ justify-content: space-between
     padding: 5px;
   }
 
-//rooms
-.first_room_header{
-  font-size: 2rem;
-  padding-left: 10%;
+  //rooms
+  .first_room_header {
+    font-size: 2rem;
+    padding-left: 10%;
+  }
+  .singleroom_title,
+  .doubleroom_title,
+  .twinroom_title,
+  .details_and_price {
+    grid-area: 1 / 1 / 4 / 4;
+    font-size: 1.6rem;
+  }
+  .rooms {
+    display: grid;
+    grid-template-columns: 98vw;
+    grid-row-gap: 0%;
+  }
+  .details_and_price {
+    font-size: 0.5rem;
+  }
+  .price {
+    font-size: 0.8rem;
+  }
+  .price_bar {
+    padding-right: 10%;
+  }
 }
-.singleroom_title,
-.doubleroom_title,
-.twinroom_title,
-.details_and_price{
-  grid-area: 1 / 1 / 4 / 4;
-  font-size: 1.6rem;
-}
-.rooms{
-  display: grid;
-  grid-template-columns: 98vw;
-  grid-row-gap: 0%;
-}
-.details_and_price{
-  font-size: 0.5rem;
-}
-.price{
-font-size: 0.8rem;
 
-}
-.price_bar{
-  padding-right: 10%;
-}
+//home
+@media all and (max-width: 1467px) {
+  .main__group-first {
+    margin-top: 0px;
+  }
+  .main__group-first::before,
+  .main__group-second::before {
+    display: none;
+  }
+  .main__group {
+    display: grid;
+    grid-template-rows: 45vh 10vh 45vh;
+  }
 }
 
+@media all and (max-width: 1271px) {
+  .main__group {
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 1fr 50vh 1fr 45vh;
+  }
+
+  .main__group-firstPhoto {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 100%;
+  }
+
+  .main__group-secondPhoto {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+
+  .main__group-first {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  .main__group-second {
+    display: grid;
+    grid-row: 6/7;
+    grid-column: 2/3;
+    text-align: center;
+    align-items: center;
+  }
+
+  .first-group__subtitle {
+    text-align: center;
+    max-width: fit-content;
+  }
+
+  .main__group-second {
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+
+  .second-group__title {
+    text-align: center;
+    max-width: fit-content;
+  }
+
+  .second-group__subtitle {
+    text-align: center;
+    max-width: fit-content;
+  }
+
+  .mainhome,
+  .containertestimonials {
+    margin-top: 70px;
+  }
+}
+
+@media all and (max-width: 630px) {
+  .main__group {
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 1fr 70vh 1fr 60vh;
+  }
+
+  .main__group-second {
+    margin-bottom: 70px;
+  }
+}
