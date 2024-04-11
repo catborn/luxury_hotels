@@ -323,7 +323,7 @@ a {
 
 .image__label {
   grid-area: 2 / 2 / 3 / 3;
-  background-color: white;
+  background-color: $textColor;
   text-align: center;
   align-self: end;
   font-size: 2rem;
