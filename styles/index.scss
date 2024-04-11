@@ -77,6 +77,8 @@ a {
   height: 100vh;
   padding: 0 50px 0 50px;
   max-width: 100vw;
+  display: grid;
+  align-content: space-between;
 }
 
 .burger-menu {
@@ -208,7 +210,7 @@ a {
 
 .header__title {
   max-width: 50%;
-  margin-bottom: 240px;
+  margin-bottom: 40px;
 }
 
 .header__title-main {
@@ -244,6 +246,8 @@ a {
 }
 
 .header__book-btn {
+  display: flex;
+  align-items: center;
   margin-bottom: 20px;
   padding: 16px 20px 16px 20px;
   text-transform: uppercase;
@@ -711,8 +715,8 @@ textarea {
   color: $textColor;
   font-size: 80px;
   text-transform: uppercase;
-  font-family: $font-familyText;
   font-weight: 700;
+  margin-bottom: 70px;
 }
 
 .nav__contact {
@@ -773,10 +777,6 @@ textarea {
 @media all and (max-width: 767px) {
   .header__title-secondLine {
     font-size: 80px;
-  }
-
-  .header__scroll {
-    display: none;
   }
 
   .header__contact-title {
@@ -912,9 +912,6 @@ textarea {
     font-size: 40px;
   }
 
-  .footer {
-    display: none;
-  }
 
   //facilities
   .text__facilities {
@@ -1052,3 +1049,4 @@ textarea {
     margin-bottom: 70px;
   }
 }
+
