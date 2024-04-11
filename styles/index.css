@@ -850,7 +850,7 @@ textarea {
     line-height: 1.2;
     padding: 5px;
   }
-  .first_room_header {
+  .first__room-header {
     font-size: 1rem;
   }
   .singleroom_title,
@@ -860,7 +860,7 @@ textarea {
     grid-area: 1/1/4/4;
     font-size: 2rem;
   }
-  .rooms {
+  .main__container-rooms {
     display: grid;
     justify-content: center;
     grid-template-columns: 95vw;
@@ -902,7 +902,7 @@ textarea {
     line-height: 1;
     padding: 5px;
   }
-  .first_room_header {
+  .first__room-header {
     font-size: 2rem;
     padding-left: 10%;
   }
@@ -913,7 +913,7 @@ textarea {
     grid-area: 1/1/4/4;
     font-size: 1.6rem;
   }
-  .rooms {
+  .main__container-rooms {
     display: grid;
     grid-template-columns: 98vw;
     grid-row-gap: 0%;
