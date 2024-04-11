@@ -381,18 +381,18 @@ a {
   padding-bottom: 5%;
   word-spacing: normal;
 }
-.image_rooms {
+.rooms__image {
   max-width: 100%;
   max-height: 100%;
 }
-.room_title {
+.rooms__title {
   font-size: larger;
   font-weight: bolder;
   letter-spacing: 2px;
   font-size: xx-large;
 }
 
-.singleroom_title {
+.singleroom__title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -403,7 +403,7 @@ a {
   text-align: center;
 }
 
-.doubleroom_title {
+.doubleroom__title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -414,7 +414,7 @@ a {
   text-align: center;
 }
 
-.twinroom_title {
+.twinroom__title {
   border: 1px solid darkblue;
   height: 10vh;
   padding-top: 5%;
@@ -430,14 +430,15 @@ a {
   padding-top: 5%;
   font-weight: 600;
 }
-.round {
+.rooms__round-button {
   width: 50px;
   height: 50px;
   background-color: #fbf9f9;
   border-radius: 40%;
+  border-color: transparent;
 }
 
-.price {
+.rooms__price-button {
   border: 0px;
   border-radius: 8px;
   padding: 3%;
@@ -449,7 +450,7 @@ a {
   color: rgb(255, 255, 255);
 }
 
-.price_bar {
+.rooms__price-bar {
   display: grid;
   border: 0px;
   padding-bottom: 5%;
@@ -779,7 +780,7 @@ textarea {
     display: none;
   }
   //rooms
-  .price {
+  .rooms__price-button {
     height: 100%;
     width: 100%;
   }
@@ -893,9 +894,9 @@ textarea {
     font-size: 1rem;
   }
 
-  .singleroom_title,
-  .doubleroom_title,
-  .twinroom_title,
+  .singleroom__title,
+  .doubleroom__title,
+  .twinroom__title,
   .details_and_price {
     grid-area: 1 / 1 / 4 / 4;
     font-size: 2rem;
@@ -907,7 +908,7 @@ textarea {
     grid-template-columns: 95vw;
     grid-row-gap: 5px;
   }
-  .price {
+  .rooms__price-button {
     height: 100%;
     width: 100%;
   }
@@ -957,9 +958,9 @@ textarea {
     font-size: 2rem;
     padding-left: 10%;
   }
-  .singleroom_title,
-  .doubleroom_title,
-  .twinroom_title,
+  .singleroom__title,
+  .doubleroom__title,
+  .twinroom__title,
   .details_and_price {
     grid-area: 1 / 1 / 4 / 4;
     font-size: 1.6rem;
@@ -972,10 +973,10 @@ textarea {
   .details_and_price {
     font-size: 0.5rem;
   }
-  .price {
+  .rooms__price-button {
     font-size: 0.8rem;
   }
-  .price_bar {
+  .rooms__price-bar{
     padding-right: 10%;
   }
 }
