@@ -383,7 +383,7 @@ a {
 }
 
 .singleroom__title {
-  border: 1px solid darkblue;
+  border: rgb(20, 39, 74);
   height: 10vh;
   padding-top: 5%;
   color: aliceblue;
