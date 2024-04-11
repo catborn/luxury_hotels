@@ -199,7 +199,7 @@ a {
 
 .header__title {
   max-width: 50%;
-  margin-bottom: 40px;
+  margin-bottom: 240px;
 }
 
 .header__title-main {
@@ -753,7 +753,7 @@ textarea {
 }
 @media all and (max-width: 767px) {
   .header__title-secondLine {
-    font-size: 10px;
+    font-size: 80px;
   }
   .header__scroll {
     display: none;
