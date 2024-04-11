@@ -425,11 +425,6 @@ a {
   text-align: center;
 }
 
-.details_button {
-  display: grid;
-  padding-top: 5%;
-  font-weight: 600;
-}
 .rooms__round-button {
   width: 50px;
   height: 50px;
@@ -458,12 +453,12 @@ a {
   font-weight: 600;
   padding-left: 35%;
 }
-.details {
+.rooms__details-view {
   padding-left: 5%;
   padding-top: 1%;
   color: rgba(20, 39, 74, 1);
 }
-.details_and_price {
+.rooms__details-price {
   border: 1px solid darkblue;
   display: flex;
   flex-direction: row;
@@ -471,7 +466,7 @@ a {
   justify-content: stretch;
 }
 
-.details_bar {
+.rooms__details-bar {
   padding-left: 15%;
 }
 
@@ -784,7 +779,7 @@ textarea {
     height: 100%;
     width: 100%;
   }
-  .details_and_price {
+  .rooms__details-price {
     display: flex;
     justify-content: space-between;
   }
@@ -897,7 +892,7 @@ textarea {
   .singleroom__title,
   .doubleroom__title,
   .twinroom__title,
-  .details_and_price {
+  .rooms__details-price {
     grid-area: 1 / 1 / 4 / 4;
     font-size: 2rem;
   }
@@ -961,7 +956,7 @@ textarea {
   .singleroom__title,
   .doubleroom__title,
   .twinroom__title,
-  .details_and_price {
+  .rooms__details-price {
     grid-area: 1 / 1 / 4 / 4;
     font-size: 1.6rem;
   }
@@ -970,7 +965,7 @@ textarea {
     grid-template-columns: 98vw;
     grid-row-gap: 0%;
   }
-  .details_and_price {
+  .rooms__details-price {
     font-size: 0.5rem;
   }
   .rooms__price-button {
