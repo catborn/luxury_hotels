@@ -740,10 +740,18 @@ textarea {
   .footer__section:last-child {
     display: none;
   }
+  .price {
+    height: 100%;
+    width: 100%;
+  }
+  .details_and_price {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 @media all and (max-width: 767px) {
   .header__title-secondLine {
-    font-size: 100px;
+    font-size: 10px;
   }
   .header__scroll {
     display: none;
