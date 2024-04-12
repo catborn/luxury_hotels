@@ -366,7 +366,7 @@ button:hover {
 .first__room-header {
   padding-top: 5%;
   text-align: center;
-  color: rgba(20, 39, 74, 1);
+  color: $headerColor;
   font-size: larger;
   padding: 0%;
   padding-bottom: 5%;
@@ -384,42 +384,42 @@ button:hover {
 }
 
 .singleroom__title {
-  border: rgba(20, 39, 74, 1);
+  border: $headerColor;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
+  color: $textColor;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgba(20, 39, 74, 1);
+  background-color: $headerColor;
   text-align: center;
 }
 
 .doubleroom__title {
-  border: 1px solid darkblue;
+  border: 1px solid $headerColor;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
+  color: $textColor;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgba(20, 39, 74, 1);
+  background-color: $headerColor;
   text-align: center;
 }
 
 .twinroom__title {
-  border: 1px solid darkblue;
+  border: 1px solid $headerColor;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
+  color:$textColor;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgba(20, 39, 74, 1);
+  background-color: $headerColor;
   text-align: center;
 }
 
 .rooms__round-button {
   width: 50px;
   height: 50px;
-  background-color: #fbf9f9;
+  background-color: transparent;
   border-radius: 40%;
   border-color: transparent;
 }
@@ -448,11 +448,11 @@ button:hover {
 .rooms__details-view {
   padding-left: 5%;
   padding-top: 1%;
-  color: rgba(20, 39, 74, 1);
+  color:$headerColor;
 }
 
 .rooms__details-price {
-  border: 1px solid darkblue;
+  border: 1px solid $headerColor;
   display: flex;
   flex-direction: row;
   padding-top: 5%;

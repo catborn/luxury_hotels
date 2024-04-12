@@ -37,7 +37,7 @@ a {
 }
 
 .btn {
-  background-color: #E0B973;
+  background-color: #e0b973;
   color: #ffffff;
   border-radius: 12px;
   border: none;
@@ -122,7 +122,7 @@ button:hover {
 }
 
 .main__home-button {
-  background-color: #E0B973;
+  background-color: #e0b973;
   width: 236px;
   height: 63px;
   border: none;
@@ -307,8 +307,8 @@ button:hover {
   justify-content: center;
   grid-template-columns: 90%;
   grid-template-rows: max-content;
-  text-align: center;
   grid-row-gap: 50px;
+  text-align: center;
 }
 
 .text__facilities {
@@ -332,9 +332,9 @@ button:hover {
   background-color: #ffffff;
   text-align: center;
   align-self: end;
+  color: #13274a;
   font-size: 2rem;
   font-weight: bold;
-  color: #13274a;
 }
 
 .image__facilities {
@@ -359,8 +359,8 @@ button:hover {
 
 .button__tesimonials {
   justify-content: center;
-  border: 0;
   background-color: transparent;
+  border: 0;
 }
 
 .button__tesimonials:hover {
@@ -375,7 +375,7 @@ button:hover {
 .first__room-header {
   padding-top: 5%;
   text-align: center;
-  color: rgb(20, 39, 74);
+  color: #13274a;
   font-size: larger;
   padding: 0%;
   padding-bottom: 5%;
@@ -395,42 +395,42 @@ button:hover {
 }
 
 .singleroom__title {
-  border: rgb(20, 39, 74);
+  border: #13274a;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
+  color: #ffffff;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgb(20, 39, 74);
+  background-color: #13274a;
   text-align: center;
 }
 
 .doubleroom__title {
-  border: 1px solid darkblue;
+  border: 1px solid #13274a;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
+  color: #ffffff;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgb(20, 39, 74);
+  background-color: #13274a;
   text-align: center;
 }
 
 .twinroom__title {
-  border: 1px solid darkblue;
+  border: 1px solid #13274a;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
+  color: #ffffff;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgb(20, 39, 74);
+  background-color: #13274a;
   text-align: center;
 }
 
 .rooms__round-button {
   width: 50px;
   height: 50px;
-  background-color: #fbf9f9;
+  background-color: transparent;
   border-radius: 40%;
   border-color: transparent;
 }
@@ -441,7 +441,7 @@ button:hover {
   padding: 3%;
   height: 180%;
   width: 150%;
-  background-color: #E0B973;
+  background-color: #e0b973;
   font-size: 20px;
   font-weight: 600;
   color: rgb(255, 255, 255);
@@ -459,11 +459,11 @@ button:hover {
 .rooms__details-view {
   padding-left: 5%;
   padding-top: 1%;
-  color: rgb(20, 39, 74);
+  color: #13274a;
 }
 
 .rooms__details-price {
-  border: 1px solid darkblue;
+  border: 1px solid #13274a;
   display: flex;
   flex-direction: row;
   padding-top: 5%;
@@ -575,10 +575,10 @@ button:hover {
   display: inline-block;
   padding: 0.375rem 0.75rem;
   text-align: center;
-  border: 1px solid #E0B973;
+  border: 1px solid #e0b973;
   border-radius: 0.25rem;
-  background-color: #E0B973;
-  color: #14274A;
+  background-color: #e0b973;
+  color: #14274a;
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
@@ -595,7 +595,7 @@ button:hover {
 .footer__section-input {
   position: relative;
   width: 240px;
-  border: 2px solid #E0B973;
+  border: 2px solid #e0b973;
   border-radius: 3px;
   background-color: #13274a;
   color: #ffffff;
@@ -606,7 +606,7 @@ button:hover {
   grid-template-columns: 10vw repeat(2, 1fr) 10vw;
   grid-template-rows: 30vh 70vh;
   width: 98vw;
-  color: #14274A;
+  color: #14274a;
 }
 
 .contact__description {
@@ -620,7 +620,7 @@ button:hover {
   border: 0;
   text-align: start;
   background-color: #ffffff;
-  color: #14274A;
+  color: #14274a;
   font-family: "Adobe";
   font-size: 50px;
 }
@@ -683,7 +683,7 @@ button:hover {
   width: 100%;
   height: 100%;
   color: #ffffff;
-  background-color: #E0B973;
+  background-color: #e0b973;
   font-size: 16px;
   font-weight: 800;
 }
@@ -999,71 +999,5 @@ textarea {
   }
   .rooms__price-bar {
     padding-right: 10%;
-  }
-}
-.main__group-firstPhoto {
-  grid-row: 1/2;
-  grid-column: 2/3;
-  width: 100%;
-}
-
-.main__group-secondPhoto {
-  grid-row: 3/4;
-  grid-column: 2/3;
-}
-
-.main__group-first {
-  display: grid;
-  grid-row: 2/3;
-  grid-column: 2/3;
-  text-align: center;
-  align-content: space-around;
-  margin-bottom: 30px;
-}
-
-.main__group-second {
-  display: grid;
-  grid-row: 6/7;
-  grid-column: 2/3;
-  text-align: center;
-  align-items: center;
-}
-
-.first-group__subtitle {
-  text-align: center;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.main__group-second {
-  grid-row: 4/5;
-  grid-column: 2/3;
-}
-
-.second-group__title {
-  text-align: center;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.second-group__subtitle {
-  text-align: center;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.mainhome,
-.containertestimonials {
-  margin-top: 70px;
-}
-
-@media all and (max-width: 630px) {
-  .main__group {
-    display: grid;
-    grid-template-columns: 5vw 90vw 5vw;
-    grid-template-rows: 1fr 70vh 1fr 60vh;
-  }
-  .main__group-second {
-    margin-bottom: 70px;
   }
 }/*# sourceMappingURL=index.css.map */
