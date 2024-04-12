@@ -299,8 +299,8 @@ button:hover {
   justify-content: center;
   grid-template-columns: 90%;
   grid-template-rows: max-content;
-  text-align: center;
   grid-row-gap: 50px;
+  text-align: center;
 }
 
 .text__facilities {
@@ -324,9 +324,9 @@ button:hover {
   background-color: $textColor;
   text-align: center;
   align-self: end;
+  color: $headerColor;
   font-size: 2rem;
   font-weight: bold;
-  color: $headerColor;
 }
 
 .image__facilities {
@@ -350,8 +350,8 @@ button:hover {
 
 .button__tesimonials {
   justify-content: center;
-  border: 0;
   background-color: transparent;
+  border: 0;
 }
 
 .button__tesimonials:hover {
@@ -720,7 +720,6 @@ textarea {
 }
 
 @media all and (max-width: 1467px) {
-
   .main__group-first {
     margin-top: 0px;
   }
@@ -784,7 +783,6 @@ textarea {
   .second-group__title {
     text-align: center;
     max-width: fit-content;
-
   }
 
   .second-group__subtitle {
@@ -792,13 +790,13 @@ textarea {
     max-width: fit-content;
   }
 
-  .mainhome, .containertestimonials {
+  .mainhome,
+  .containertestimonials {
     margin-top: 70px;
   }
 }
 
 @media all and (max-width: 1024px) {
-
   .nav__list {
     display: none;
   }
@@ -854,7 +852,6 @@ textarea {
 }
 
 @media all and (max-width: 767px) {
-
   .header__title-secondLine {
     font-size: 80px;
   }
@@ -991,7 +988,6 @@ textarea {
 }
 
 @media all and (max-width: 576px) {
-
   .header__title-secondLine {
     font-size: 70px;
   }
@@ -1057,9 +1053,7 @@ textarea {
     font-size: 0.8rem;
   }
 
-  .rooms__price-bar{
+  .rooms__price-bar {
     padding-right: 10%;
   }
 }
-
-
