@@ -80,9 +80,8 @@ a {
 }
 
 .main__home-p {
-  font-family: Montserrat;
   font-size: 36px;
-  color: rgb(20, 39, 74);
+  color: #13274a;
   text-align: center;
   margin-top: 86px;
   margin-bottom: 93px;
@@ -101,17 +100,15 @@ a {
 }
 
 .first-group__title {
-  font-family: Adobe;
   font-size: 60px;
-  color: rgb(20, 39, 74);
+  color: #13274a;
   letter-spacing: 2%;
   margin-left: 20px;
 }
 
 .first-group__subtitle {
-  font-family: Montserrat;
   font-size: 25px;
-  color: rgb(20, 39, 74);
+  color: #13274a;
   display: grid;
   justify-items: start;
   margin-top: 25px;
@@ -121,13 +118,12 @@ a {
 }
 
 .main__home-button {
-  background-color: #e0b973;
+  background-color: #E0B973;
   width: 236px;
   height: 63px;
   border: none;
   border-radius: 12px;
   font-size: 20px;
-  font-family: Montserrat;
   color: #ffffff;
   margin-top: 30px;
   margin-left: 20px;
@@ -139,9 +135,8 @@ a {
 }
 
 .second-group__title {
-  font-family: Adobe;
   font-size: 60px;
-  color: rgb(20, 39, 74);
+  color: #13274a;
   letter-spacing: 2%;
   display: grid;
   justify-content: start;
@@ -150,9 +145,8 @@ a {
 }
 
 .second-group__subtitle {
-  font-family: Montserrat;
   font-size: 25px;
-  color: rgb(20, 39, 74);
+  color: #13274a;
   display: grid;
   justify-items: start;
   margin-top: 12px;
