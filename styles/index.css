@@ -790,7 +790,7 @@ textarea {
   .container__footer {
     display: flex;
     justify-content: center;
-    font-size: 8;
+    font-size: 8px;
   }
   .footer__section:first-child {
     display: none;
