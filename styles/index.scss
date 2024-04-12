@@ -1,20 +1,6 @@
 @import "_variables";
 @import "_mixins";
-
-@font-face {
-  font-family: "Adobe";
-  src: url("../fonts/AGaramondPro-Bold.woff");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Bold.woff");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Regular.woff");
-}
+@import "_fonts";
 
 * {
   margin: 0;
@@ -84,8 +70,6 @@ a {
 .burger-menu {
   display: none;
 }
-
-//  HOME
 
 .main__home-p {
   font-size: 36px;
@@ -211,7 +195,6 @@ a {
   position: relative;
 }
 
-// HEADER
 .header__container-home {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
@@ -234,13 +217,13 @@ a {
 }
 
 .header__title-firstLine {
-  font-size: 50px;
   margin-bottom: 10px;
+  font-size: 50px;
 }
 
 .header__title-secondLine {
-  font-size: 150px;
   margin: 0;
+  font-size: 150px;
 }
 
 .header__title-thirdLine {
@@ -300,8 +283,6 @@ a {
 .header__scroll-btn:hover {
   cursor: pointer;
 }
-
-// FACILITIES
 
 .header__container-facilities {
   background-image: url("../images/img_facilities.jpg");
@@ -375,8 +356,6 @@ a {
 .button__tesimonials:hover {
   transform: scale(1.2);
 }
-
-// ROOMS
 
 .main__container-rooms {
   display: grid;
@@ -465,11 +444,13 @@ a {
   font-weight: 600;
   padding-left: 35%;
 }
+
 .rooms__details-view {
   padding-left: 5%;
   padding-top: 1%;
   color: rgba(20, 39, 74, 1);
 }
+
 .rooms__details-price {
   border: 1px solid darkblue;
   display: flex;
@@ -489,8 +470,6 @@ a {
   max-height: 1080px;
   background-position: center;
 }
-
-// FOOTER
 
 .footer {
   background-size: cover;
@@ -622,8 +601,6 @@ a {
   width: 240px;
 }
 
-//contact form style//
-
 .contact {
   display: grid;
   grid-template-columns: 10vw repeat(2, 1fr) 10vw;
@@ -731,18 +708,96 @@ textarea {
   display: grid;
   justify-content: center;
   align-content: start;
+  margin-bottom: 70px;
   color: $textColor;
   font-size: 80px;
   text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 70px;
 }
 
 .nav__contact {
   margin-bottom: 50px;
 }
 
+@media all and (max-width: 1467px) {
+
+  .main__group-first {
+    margin-top: 0px;
+  }
+
+  .main__group-first::before,
+  .main__group-second::before {
+    display: none;
+  }
+
+  .main__group {
+    display: grid;
+    grid-template-rows: 45vh 10vh 45vh;
+  }
+}
+
+@media all and (max-width: 1271px) {
+  .main__group {
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 1fr 50vh 1fr 45vh;
+  }
+
+  .main__group-firstPhoto {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 100%;
+  }
+
+  .main__group-secondPhoto {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+
+  .main__group-first {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  .main__group-second {
+    display: grid;
+    grid-row: 6/7;
+    grid-column: 2/3;
+    text-align: center;
+    align-items: center;
+  }
+
+  .first-group__subtitle {
+    text-align: center;
+    max-width: fit-content;
+  }
+
+  .main__group-second {
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+
+  .second-group__title {
+    text-align: center;
+    max-width: fit-content;
+
+  }
+
+  .second-group__subtitle {
+    text-align: center;
+    max-width: fit-content;
+  }
+
+  .mainhome, .containertestimonials {
+    margin-top: 70px;
+  }
+}
+
 @media all and (max-width: 1024px) {
+
   .nav__list {
     display: none;
   }
@@ -751,7 +806,6 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // padding: 10px 20px;
   }
 
   .burger-menu {
@@ -763,8 +817,8 @@ textarea {
   .bar {
     width: 25px;
     height: 3px;
-    background-color: $textColor;
     margin: 5px 0;
+    background-color: $textColor;
   }
 
   .footer {
@@ -786,11 +840,12 @@ textarea {
   .footer__section:last-child {
     display: none;
   }
-  //rooms
+
   .rooms__price-button {
     height: 100%;
     width: 100%;
   }
+
   .rooms__details-price {
     display: flex;
     justify-content: space-between;
@@ -798,6 +853,7 @@ textarea {
 }
 
 @media all and (max-width: 767px) {
+
   .header__title-secondLine {
     font-size: 80px;
   }
@@ -827,7 +883,7 @@ textarea {
   .footer__section:last-child {
     display: none;
   }
-  //contact form//
+
   .contact {
     grid-template-columns: 4vw 1fr 4vw;
     grid-template-rows: auto;
@@ -875,7 +931,6 @@ textarea {
     font-size: 19px;
   }
 
-  //facilities
   .text__facilities {
     font-size: 2rem;
   }
@@ -896,7 +951,7 @@ textarea {
     line-height: 1.2;
     padding: 5px;
   }
-  //rooms
+
   .first__room-header {
     font-size: 1rem;
   }
@@ -915,12 +970,27 @@ textarea {
     grid-template-columns: 95vw;
     grid-row-gap: 5px;
   }
+
   .rooms__price-button {
     height: 100%;
     width: 100%;
   }
 }
+
+@media all and (max-width: 630px) {
+  .main__group {
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 1fr 70vh 1fr 60vh;
+  }
+
+  .main__group-second {
+    margin-bottom: 70px;
+  }
+}
+
 @media all and (max-width: 576px) {
+
   .header__title-secondLine {
     font-size: 70px;
   }
@@ -939,7 +1009,6 @@ textarea {
     font-size: 40px;
   }
 
-  //facilities
   .text__facilities {
     font-size: 2.1rem;
   }
@@ -960,11 +1029,11 @@ textarea {
     padding: 5px;
   }
 
-  //rooms
   .first__room-header {
     font-size: 2rem;
     padding-left: 10%;
   }
+
   .singleroom__title,
   .doubleroom__title,
   .twinroom__title,
@@ -972,105 +1041,24 @@ textarea {
     grid-area: 1 / 1 / 4 / 4;
     font-size: 1.6rem;
   }
+
   .main__container-rooms {
     display: grid;
     grid-template-columns: 98vw;
     grid-row-gap: 0%;
   }
+
   .rooms__details-price {
     font-size: 0.5rem;
   }
+
   .rooms__price-button {
     font-size: 0.8rem;
   }
+
   .rooms__price-bar{
     padding-right: 10%;
   }
 }
-@media all and (max-width: 1467px) {
-  .main__group-first {
-    margin-top: 0px;
-  }
-  .main__group-first::before,
-  .main__group-second::before {
-    display: none;
-  }
-  .main__group {
-    display: grid;
-    grid-template-rows: 45vh 10vh 45vh;
-  }
-}
 
-@media all and (max-width: 1271px) {
-  .main__group {
-    display: grid;
-    grid-template-columns: 5vw 90vw 5vw;
-    grid-template-rows: 1fr 50vh 1fr 45vh;
-  }
 
-  .main__group-firstPhoto {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    width: 100%;
-  }
-
-  .main__group-secondPhoto {
-    grid-row: 3/4;
-    grid-column: 2/3;
-  }
-  
-  .main__group-first {
-    display: grid;
-    grid-row: 2/3;
-    grid-column: 2/3;
-    text-align: center;
-    align-content: space-around;
-    margin-bottom: 30px;
-  }
-  
-  .main__group-second {
-    display: grid;
-    grid-row: 6/7;
-    grid-column: 2/3;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .first-group__subtitle {
-    text-align: center;
-    max-width: fit-content;
-  }
-  
-  .main__group-second {
-    grid-row: 4/5;
-    grid-column: 2/3;
-  }
-  
-  .second-group__title {
-    text-align: center;
-    max-width: fit-content;
-    
-  }
-  
-  .second-group__subtitle {
-    text-align: center;
-    max-width: fit-content;
-  }
-  
-  .mainhome, .containertestimonials {
-    margin-top: 70px;
-  }
-}
-
-@media all and (max-width: 630px) {
-  .main__group {
-    display: grid;
-    grid-template-columns: 5vw 90vw 5vw;
-    grid-template-rows: 1fr 70vh 1fr 60vh;
-  }
-
-  .main__group-second {
-    margin-bottom: 70px;
-  }
-  
-}
