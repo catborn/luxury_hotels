@@ -374,12 +374,12 @@ button:hover {
 
 .first__room-header {
   padding-top: 5%;
-  text-align: center;
-  color: #13274a;
-  font-size: larger;
   padding: 0%;
   padding-bottom: 5%;
+  font-size: larger;
+  text-align: center;
   word-spacing: normal;
+  color: #13274a;
 }
 
 .rooms__image {
@@ -388,58 +388,58 @@ button:hover {
 }
 
 .rooms__title {
-  font-size: larger;
   letter-spacing: 2px;
+  font-size: larger;
   font-size: xx-large;
 }
 
 .singleroom__title {
-  border: #13274a;
+  text-align: center;
   height: 10vh;
   padding-top: 5%;
-  color: #ffffff;
+  border: #13274a;
   font-size: 45px;
   letter-spacing: 3px;
+  color: #ffffff;
   background-color: #13274a;
-  text-align: center;
 }
 
 .doubleroom__title {
-  border: 1px solid #13274a;
+  text-align: center;
   height: 10vh;
   padding-top: 5%;
-  color: #ffffff;
   font-size: 45px;
   letter-spacing: 3px;
+  border: 1px solid #13274a;
   background-color: #13274a;
-  text-align: center;
+  color: #ffffff;
 }
 
 .twinroom__title {
-  border: 1px solid #13274a;
+  text-align: center;
   height: 10vh;
   padding-top: 5%;
-  color: #ffffff;
+  border: 1px solid #13274a;
+  background-color: #13274a;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: #13274a;
-  text-align: center;
+  color: #ffffff;
 }
 
 .rooms__round-button {
   width: 50px;
   height: 50px;
-  background-color: transparent;
   border-radius: 40%;
   border-color: transparent;
+  background-color: transparent;
 }
 
 .rooms__price-button {
-  border: 0px;
-  border-radius: 8px;
   padding: 3%;
   height: 180%;
   width: 150%;
+  border: 0px;
+  border-radius: 8px;
   background-color: #e0b973;
   font-size: 20px;
   font-weight: 600;
@@ -448,10 +448,10 @@ button:hover {
 
 .rooms__price-bar {
   display: grid;
-  border: 0px;
   padding-bottom: 5%;
-  font-size: 16px;
   padding-left: 35%;
+  border: 0px;
+  font-size: 16px;
 }
 
 .rooms__details-view {
@@ -461,18 +461,18 @@ button:hover {
 }
 
 .rooms__details-price {
-  border: 1px solid #13274a;
   display: flex;
-  padding-top: 5%;
   justify-content: space-evenly;
+  padding-top: 5%;
+  border: 1px solid #13274a;
 }
 
 .header__container-rooms {
   background-image: url("../images/img_rooms.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1080px;
-  background-position: center;
 }
 
 .footer {
