@@ -389,7 +389,6 @@ button:hover {
 
 .rooms__title {
   font-size: larger;
-  font-weight: bolder;
   letter-spacing: 2px;
   font-size: xx-large;
 }
@@ -444,7 +443,7 @@ button:hover {
   background-color: #e0b973;
   font-size: 20px;
   font-weight: 600;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .rooms__price-bar {
@@ -452,7 +451,6 @@ button:hover {
   border: 0px;
   padding-bottom: 5%;
   font-size: 16px;
-  font-weight: 600;
   padding-left: 35%;
 }
 
