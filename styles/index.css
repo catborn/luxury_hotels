@@ -463,13 +463,8 @@ button:hover {
 .rooms__details-price {
   border: 1px solid #13274a;
   display: flex;
-  flex-direction: row;
   padding-top: 5%;
-  justify-content: stretch;
-}
-
-.rooms__details-bar {
-  padding-left: 15%;
+  justify-content: space-evenly;
 }
 
 .header__container-rooms {
