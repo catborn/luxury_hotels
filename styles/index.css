@@ -203,6 +203,10 @@ a {
   position: relative;
 }
 
+.main__group, .container__testimonials {
+  margin-top: 100px;
+}
+
 .header__container-home {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
@@ -982,6 +986,9 @@ textarea {
     text-align: center;
     max-width: -moz-fit-content;
     max-width: fit-content;
+  }
+  .first-group__title {
+    text-align: center;
   }
   .main__group-second {
     grid-row: 4/5;
