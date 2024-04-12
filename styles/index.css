@@ -3,11 +3,11 @@
   src: url("../fonts/AGaramondPro-Bold.woff");
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Bold";
   src: url("../fonts/Montserrat-Bold.woff");
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Regular";
   src: url("../fonts/Montserrat-Regular.woff");
 }
 * {
@@ -17,7 +17,7 @@
 }
 
 html {
-  font-family: Montserrat;
+  font-family: "Montserrat-Regular", sans-serif;
 }
 
 h1,
@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Adobe;
+  font-family: "Adobe";
 }
 
 ul,
@@ -37,10 +37,14 @@ a {
 }
 
 .btn {
-  background-color: #E0B973;
+  background-color: #e0b973;
   color: #ffffff;
   border-radius: 12px;
   border: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .nav {
@@ -118,7 +122,7 @@ a {
 }
 
 .main__home-button {
-  background-color: #E0B973;
+  background-color: #e0b973;
   width: 236px;
   height: 63px;
   border: none;
@@ -203,10 +207,6 @@ a {
   position: relative;
 }
 
-.main__group, .container__testimonials {
-  margin-top: 100px;
-}
-
 .header__container-home {
   background-image: url("../images/img_home.jpg");
   background-repeat: no-repeat;
@@ -229,13 +229,13 @@ a {
 }
 
 .header__title-firstLine {
-  font-size: 50px;
   margin-bottom: 10px;
+  font-size: 50px;
 }
 
 .header__title-secondLine {
-  font-size: 150px;
   margin: 0;
+  font-size: 150px;
 }
 
 .header__title-thirdLine {
@@ -259,10 +259,7 @@ a {
   padding: 16px 20px 16px 20px;
   text-transform: uppercase;
   font-size: 20px;
-}
-
-.header__book-btn:hover {
-  cursor: pointer;
+  font-family: "Montserrat-Bold", sans-serif;
 }
 
 .header__book-btn-svg {
@@ -310,8 +307,8 @@ a {
   justify-content: center;
   grid-template-columns: 90%;
   grid-template-rows: max-content;
-  text-align: center;
   grid-row-gap: 50px;
+  text-align: center;
 }
 
 .text__facilities {
@@ -335,9 +332,9 @@ a {
   background-color: #ffffff;
   text-align: center;
   align-self: end;
+  color: #13274a;
   font-size: 2rem;
   font-weight: bold;
-  color: #13274a;
 }
 
 .image__facilities {
@@ -362,8 +359,8 @@ a {
 
 .button__tesimonials {
   justify-content: center;
-  border: 0;
   background-color: transparent;
+  border: 0;
 }
 
 .button__tesimonials:hover {
@@ -372,18 +369,17 @@ a {
 
 .main__container-rooms {
   display: grid;
-  width: 85vw;
   justify-content: center;
 }
 
 .first__room-header {
   padding-top: 5%;
-  text-align: center;
-  color: rgb(20, 39, 74);
-  font-size: larger;
   padding: 0%;
   padding-bottom: 5%;
+  font-size: larger;
+  text-align: center;
   word-spacing: normal;
+  color: #13274a;
 }
 
 .rooms__image {
@@ -392,112 +388,105 @@ a {
 }
 
 .rooms__title {
-  font-size: larger;
-  font-weight: bolder;
   letter-spacing: 2px;
+  font-size: larger;
   font-size: xx-large;
 }
 
 .singleroom__title {
-  border: rgb(20, 39, 74);
+  text-align: center;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
+  border: #13274a;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgb(20, 39, 74);
-  text-align: center;
+  color: #ffffff;
+  background-color: #13274a;
 }
 
 .doubleroom__title {
-  border: 1px solid darkblue;
+  text-align: center;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgb(20, 39, 74);
-  text-align: center;
+  border: 1px solid #13274a;
+  background-color: #13274a;
+  color: #ffffff;
 }
 
 .twinroom__title {
-  border: 1px solid darkblue;
+  text-align: center;
   height: 10vh;
   padding-top: 5%;
-  color: aliceblue;
+  border: 1px solid #13274a;
+  background-color: #13274a;
   font-size: 45px;
   letter-spacing: 3px;
-  background-color: rgb(20, 39, 74);
-  text-align: center;
+  color: #ffffff;
 }
 
 .rooms__round-button {
   width: 50px;
   height: 50px;
-  background-color: #fbf9f9;
   border-radius: 40%;
   border-color: transparent;
+  background-color: transparent;
 }
 
 .rooms__price-button {
-  border: 0px;
-  border-radius: 8px;
   padding: 3%;
   height: 180%;
   width: 150%;
-  background-color: #E0B973;
+  border: 0px;
+  border-radius: 8px;
+  background-color: #e0b973;
   font-size: 20px;
   font-weight: 600;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .rooms__price-bar {
   display: grid;
-  border: 0px;
   padding-bottom: 5%;
-  font-size: 16px;
-  font-weight: 600;
   padding-left: 35%;
+  border: 0px;
+  font-size: 16px;
 }
 
 .rooms__details-view {
   padding-left: 5%;
   padding-top: 1%;
-  color: rgb(20, 39, 74);
+  color: #13274a;
 }
 
 .rooms__details-price {
-  border: 1px solid darkblue;
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
   padding-top: 5%;
-  justify-content: stretch;
-}
-
-.rooms__details-bar {
-  padding-left: 15%;
+  border: 1px solid #13274a;
 }
 
 .header__container-rooms {
   background-image: url("../images/img_rooms.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1080px;
-  background-position: center;
 }
 
 .footer {
-  background-size: cover;
   margin-top: 120px;
   height: 240px;
+  background-size: cover;
   background-color: #13274a;
 }
 
 .container__footer {
   display: grid;
   grid-template-columns: 32% repeat(2, 16%) 36%;
-  justify-content: space-between;
   padding: 40px 70px;
+  justify-content: space-between;
   color: #ffffff;
 }
 
@@ -512,41 +501,36 @@ a {
 }
 
 .footer__title-firstLine {
+  text-align: left;
   font-size: 25px;
-  font-weight: 700;
   line-height: 5px;
   letter-spacing: 0.15em;
-  text-align: left;
 }
 
 .footer__title-secondLine {
   margin-left: 24px;
   margin-bottom: 30px;
   font-size: 10px;
-  font-weight: 700;
   line-height: 5px;
   letter-spacing: 0.6em;
 }
 
 .footer__contacts {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
   text-align: left;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .footer__menu {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 40px;
   text-align: left;
+  font-size: 16px;
+  line-height: 40px;
 }
 
 .footer__social {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 36px;
   text-align: left;
+  font-size: 16px;
+  line-height: 36px;
 }
 
 .footer__social-img {
@@ -555,26 +539,22 @@ a {
 }
 
 .footer__section:nth-child(2) {
-  display: grid;
   justify-content: start;
 }
 
 .footer__section:nth-child(3) {
-  display: grid;
   justify-content: center;
 }
 
 .footer__section:last-child {
-  display: grid;
   justify-content: end;
 }
 
 .footer__section-text {
   margin-bottom: 80px;
-  font-size: 16px;
-  font-weight: 400px;
-  line-height: 32px;
   text-align: left;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 .footer__section-form {
@@ -587,19 +567,17 @@ a {
 .footer__section-btn {
   display: inline-block;
   padding: 0.375rem 0.75rem;
-  border-radius: 0.25rem;
-  color: #14274A;
   text-align: center;
-  vertical-align: middle;
+  border: 1px solid #e0b973;
+  border-radius: 0.25rem;
+  background-color: #e0b973;
+  color: #14274a;
+  font-size: 1rem;
+  font-weight: 700;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: #E0B973;
-  border: 1px solid #E0B973;
-  font-size: 1rem;
-  font-weight: 700;
-  border-radius: 0.25rem;
   transition: background-color 0.15s ease-in-out;
 }
 
@@ -609,11 +587,11 @@ a {
 
 .footer__section-input {
   position: relative;
-  color: #ffffff;
-  background-color: #13274a;
-  border: 2px solid #E0B973;
-  border-radius: 3px;
   width: 240px;
+  border: 2px solid #e0b973;
+  border-radius: 3px;
+  background-color: #13274a;
+  color: #ffffff;
 }
 
 .contact {
@@ -621,7 +599,7 @@ a {
   grid-template-columns: 10vw repeat(2, 1fr) 10vw;
   grid-template-rows: 30vh 70vh;
   width: 98vw;
-  color: #14274A;
+  color: #14274a;
 }
 
 .contact__description {
@@ -635,14 +613,14 @@ a {
   border: 0;
   text-align: start;
   background-color: #ffffff;
-  color: #14274A;
-  font-family: Adobe;
+  color: #14274a;
+  font-family: "Adobe";
   font-size: 50px;
 }
 
 .contact__description-text {
   margin-top: 0;
-  font-family: Montserrat;
+  font-family: "Montserrat-Regular", sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
@@ -652,7 +630,7 @@ a {
   grid-column: 2/3;
   width: 30vw;
   margin-top: 10vh;
-  font-family: Montserrat;
+  font-family: "Montserrat-Regular", sans-serif;
   font-size: 30px;
 }
 
@@ -672,7 +650,7 @@ a {
   width: 35vw;
   justify-self: end;
   margin-top: 10vh;
-  font-family: Montserrat;
+  font-family: "Montserrat-Regular", sans-serif;
   font-size: 15px;
   font-weight: 800;
 }
@@ -698,7 +676,7 @@ a {
   width: 100%;
   height: 100%;
   color: #ffffff;
-  background-color: #E0B973;
+  background-color: #e0b973;
   font-size: 16px;
   font-weight: 800;
 }
@@ -723,17 +701,84 @@ textarea {
   display: grid;
   justify-content: center;
   align-content: start;
+  margin-bottom: 70px;
   color: #ffffff;
   font-size: 80px;
   text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 70px;
+  font-family: "Montserrat-Bold", sans-serif;
 }
 
 .nav__contact {
   margin-bottom: 50px;
 }
 
+@media all and (max-width: 1467px) {
+  .main__group-first {
+    margin-top: 0px;
+  }
+  .main__group-first::before,
+  .main__group-second::before {
+    display: none;
+  }
+  .main__group {
+    display: grid;
+    grid-template-rows: 45vh 10vh 45vh;
+  }
+}
+@media all and (max-width: 1271px) {
+  .main__group {
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 1fr 50vh 1fr 45vh;
+  }
+  .main__group-firstPhoto {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 100%;
+  }
+  .main__group-secondPhoto {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+  .main__group-first {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+    align-content: space-around;
+    margin-bottom: 30px;
+  }
+  .main__group-second {
+    display: grid;
+    grid-row: 6/7;
+    grid-column: 2/3;
+    text-align: center;
+    align-items: center;
+  }
+  .first-group__subtitle {
+    text-align: center;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .main__group-second {
+    grid-row: 4/5;
+    grid-column: 2/3;
+  }
+  .second-group__title {
+    text-align: center;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .second-group__subtitle {
+    text-align: center;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .mainhome,
+  .containertestimonials {
+    margin-top: 70px;
+  }
+}
 @media all and (max-width: 1024px) {
   .nav__list {
     display: none;
@@ -751,13 +796,13 @@ textarea {
   .bar {
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
     margin: 5px 0;
+    background-color: #ffffff;
   }
   .footer {
+    padding: 4%;
     height: -moz-max-content;
     height: max-content;
-    padding: 4%;
   }
   .container__footer {
     display: grid;
@@ -794,7 +839,7 @@ textarea {
   .container__footer {
     display: flex;
     justify-content: center;
-    font-size: 8;
+    font-size: 8px;
   }
   .footer__section:first-child {
     display: none;
@@ -880,6 +925,16 @@ textarea {
   .rooms__price-button {
     height: 100%;
     width: 100%;
+  }
+}
+@media all and (max-width: 630px) {
+  .main__group {
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 1fr 70vh 1fr 60vh;
+  }
+  .main__group-second {
+    margin-bottom: 70px;
   }
 }
 @media all and (max-width: 576px) {
@@ -986,9 +1041,6 @@ textarea {
     text-align: center;
     max-width: -moz-fit-content;
     max-width: fit-content;
-  }
-  .first-group__title {
-    text-align: center;
   }
   .main__group-second {
     grid-row: 4/5;
