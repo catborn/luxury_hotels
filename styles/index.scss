@@ -419,7 +419,7 @@ button:hover {
   font-size: 45px;
   letter-spacing: 3px;
   color:$textColor;
-  
+
 }
 
 .rooms__round-button {
@@ -448,7 +448,7 @@ button:hover {
   padding-left: 35%;
   border: 0px;
   font-size: 16px;
-  
+
 }
 
 .rooms__details-view {
@@ -470,7 +470,7 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1080px;
-  
+
 }
 
 .footer {
@@ -687,7 +687,7 @@ textarea {
   width: 100%;
   resize: none;
   border-radius: 0%;
-  border-color: #14274a5d;
+  border-color: $textArea;
 }
 
 .header__contact {
