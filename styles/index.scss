@@ -76,11 +76,11 @@ button:hover {
 }
 
 .main__home-p {
-  font-size: 36px;
-  color: $headerColor;
   text-align: center;
   margin-top: 86px;
   margin-bottom: 93px;
+  font-size: 36px;
+  color: $headerColor;
 }
 
 .main__group {
@@ -96,33 +96,33 @@ button:hover {
 }
 
 .first-group__title {
+  margin-left: 20px;
+  letter-spacing: 2%;
   font-size: 60px;
   color: $headerColor;
-  letter-spacing: 2%;
-  margin-left: 20px;
 }
 
 .first-group__subtitle {
-  font-size: 25px;
-  color: $headerColor;
   display: grid;
   justify-items: start;
   margin-top: 25px;
   max-width: 542px;
   line-height: 40px;
   margin-left: 20px;
+  font-size: 25px;
+  color: $headerColor;
 }
 
 .main__home-button {
-  background-color: $button-color;
   width: 236px;
   height: 63px;
-  border: none;
-  border-radius: 12px;
-  font-size: 20px;
-  color: $textColor;
   margin-top: 30px;
   margin-left: 20px;
+  font-size: 20px;
+  background-color: $button-color;
+  color: $textColor;
+  border: none;
+  border-radius: 12px;
 }
 
 .main__group-second {
@@ -131,24 +131,25 @@ button:hover {
 }
 
 .second-group__title {
-  font-size: 60px;
-  color: $headerColor;
-  letter-spacing: 2%;
   display: grid;
   justify-content: start;
   max-width: 563px;
   margin-left: 20px;
+  font-size: 60px;
+  letter-spacing: 2%;
+  color: $headerColor;
 }
 
 .second-group__subtitle {
-  font-size: 25px;
-  color: $headerColor;
   display: grid;
   justify-items: start;
   margin-top: 12px;
   max-width: 523px;
   line-height: 40px;
   margin-left: 20px;
+  font-size: 25px;
+  color: $headerColor;
+
 }
 
 .main__line-first {
@@ -187,11 +188,11 @@ button:hover {
   display: block;
   width: 2px;
   height: 100%;
-  background-color: $headerColor;
   position: absolute;
   top: 0;
   left: -10px;
   min-width: 2px;
+  background-color: $headerColor;
 }
 
 .main__group-first,
@@ -199,9 +200,10 @@ button:hover {
   position: relative;
 }
 
-.main__group, .container__testimonials {
-  margin-top: 105px;
+.container__testimonials {
+  margin-top: 150px;
 }
+
 
 .header__container-home {
   background-image: url("../images/img_home.jpg");
