@@ -1,5 +1,4 @@
 @import "_variables";
-@import "_mixins";
 @import "_fonts";
 
 * {
@@ -149,7 +148,6 @@ button:hover {
   margin-left: 20px;
   font-size: 25px;
   color: $headerColor;
-
 }
 
 .main__line-first {
@@ -203,7 +201,6 @@ button:hover {
 .container__testimonials {
   margin-top: 150px;
 }
-
 
 .header__container-home {
   background-image: url("../images/img_home.jpg");
@@ -419,8 +416,7 @@ button:hover {
   background-color: $headerColor;
   font-size: 45px;
   letter-spacing: 3px;
-  color:$textColor;
-
+  color: $textColor;
 }
 
 .rooms__round-button {
@@ -448,13 +444,12 @@ button:hover {
   padding-left: 35%;
   border: 0;
   font-size: 16px;
-
 }
 
 .rooms__details-view {
   padding-left: 5%;
   padding-top: 1%;
-  color:$headerColor;
+  color: $headerColor;
   font-family: $font-familyTextBold;
   font-size: 25px;
 }
@@ -473,7 +468,6 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1080px;
-
 }
 
 .footer {
@@ -959,7 +953,6 @@ textarea {
   .rooms__details-view {
     font-size: 20px;
   }
-
 }
 
 @media all and (max-width: 630px) {
@@ -1047,5 +1040,4 @@ textarea {
   .rooms__details-view {
     font-size: 15px;
   }
-
 }
