@@ -468,6 +468,7 @@ button:hover {
   display: flex;
   justify-content: space-evenly;
   padding-top: 5%;
+  padding: 5% 15px 0 15px;
   border: 1px solid #13274a;
 }
 
@@ -823,6 +824,7 @@ textarea {
   .rooms__details-price {
     display: flex;
     justify-content: space-between;
+    padding: 5% 15px 0 15px;
   }
 }
 @media all and (max-width: 767px) {
