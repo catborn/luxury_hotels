@@ -273,7 +273,6 @@ button:hover {
   margin-bottom: 8px;
   color: $textColor;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .header__scroll-img {
@@ -440,7 +439,6 @@ button:hover {
   border-radius: 8px;
   background-color: $button-color;
   font-size: 20px;
-  font-weight: 600;
   color: $textColor;
 }
 
@@ -576,7 +574,6 @@ button:hover {
   background-color: $button-color;
   color: $contact-color;
   font-size: 1rem;
-  font-weight: 700;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -617,15 +614,12 @@ button:hover {
   text-align: start;
   background-color: $textColor;
   color: $contact-color;
-  font-family: $font-familyTitle;
   font-size: 50px;
 }
 
 .contact__description-text {
   margin-top: 0;
-  font-family: $font-familyText;
   font-size: 20px;
-  font-weight: 600;
 }
 
 .contact__our {
@@ -633,14 +627,13 @@ button:hover {
   grid-column: 2/3;
   width: 30vw;
   margin-top: $contact-marginTop;
-  font-family: $font-familyText;
   font-size: 30px;
 }
 
 .contact__our-map {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-weight: 900;
+  font-family: $font-familyTextBold;
 }
 
 .contact__our-map img {
@@ -653,9 +646,8 @@ button:hover {
   width: 35vw;
   justify-self: end;
   margin-top: $contact-marginTop;
-  font-family: $font-familyText;
   font-size: 15px;
-  font-weight: 800;
+  font-family: $font-familyTextBold;
 }
 
 .contact__form-email {
@@ -681,7 +673,6 @@ button:hover {
   color: $textColor;
   background-color: $button-color;
   font-size: 16px;
-  font-weight: 800;
 }
 
 #message {
@@ -893,7 +884,6 @@ textarea {
   .contact__description-text {
     margin-top: 0;
     font-size: 20px;
-    font-weight: 300;
   }
 
   .contact__our {

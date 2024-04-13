@@ -279,7 +279,6 @@ button:hover {
   margin-bottom: 8px;
   color: #ffffff;
   font-size: 20px;
-  font-weight: bold;
 }
 
 .header__scroll-img {
@@ -446,7 +445,6 @@ button:hover {
   border-radius: 8px;
   background-color: #e0b973;
   font-size: 20px;
-  font-weight: 600;
   color: #ffffff;
 }
 
@@ -580,7 +578,6 @@ button:hover {
   background-color: #e0b973;
   color: #14274a;
   font-size: 1rem;
-  font-weight: 700;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -621,15 +618,12 @@ button:hover {
   text-align: start;
   background-color: #ffffff;
   color: #14274a;
-  font-family: "Adobe";
   font-size: 50px;
 }
 
 .contact__description-text {
   margin-top: 0;
-  font-family: "Montserrat-Regular", sans-serif;
   font-size: 20px;
-  font-weight: 600;
 }
 
 .contact__our {
@@ -637,14 +631,13 @@ button:hover {
   grid-column: 2/3;
   width: 30vw;
   margin-top: 10vh;
-  font-family: "Montserrat-Regular", sans-serif;
   font-size: 30px;
 }
 
 .contact__our-map {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-weight: 900;
+  font-family: "Montserrat-Bold", sans-serif;
 }
 
 .contact__our-map img {
@@ -657,9 +650,8 @@ button:hover {
   width: 35vw;
   justify-self: end;
   margin-top: 10vh;
-  font-family: "Montserrat-Regular", sans-serif;
   font-size: 15px;
-  font-weight: 800;
+  font-family: "Montserrat-Bold", sans-serif;
 }
 
 .contact__form-email {
@@ -685,7 +677,6 @@ button:hover {
   color: #ffffff;
   background-color: #e0b973;
   font-size: 16px;
-  font-weight: 800;
 }
 
 #message {
@@ -870,7 +861,6 @@ textarea {
   .contact__description-text {
     margin-top: 0;
     font-size: 20px;
-    font-weight: 300;
   }
   .contact__our {
     grid-row: 2/3;
