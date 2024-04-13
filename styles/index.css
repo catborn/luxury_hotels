@@ -676,6 +676,7 @@ button:hover {
   color: #ffffff;
   background-color: #e0b973;
   font-size: 16px;
+  font-family: "Montserrat-Bold", sans-serif;
 }
 
 #message {
