@@ -378,10 +378,12 @@ button:hover {
   word-spacing: normal;
   color: $headerColor;
 }
+
 .rooms__image {
   max-width: 100%;
   max-height: 100%;
 }
+
 .rooms__title {
   letter-spacing: 2px;
   font-size: larger;
@@ -780,7 +782,6 @@ textarea {
     text-align: center;
     max-width: fit-content;
   }
-
 }
 
 @media all and (max-width: 1024px) {
@@ -869,7 +870,6 @@ textarea {
     display: none;
   }
 
-  //contact form//
   .contact {
     grid-template-columns: 4vw 1fr 4vw;
     grid-template-rows: auto;
