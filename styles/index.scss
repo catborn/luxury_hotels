@@ -457,6 +457,8 @@ button:hover {
   padding-left: 5%;
   padding-top: 1%;
   color:$headerColor;
+  font-family: $font-familyTextBold;
+  font-size: 25px;
 }
 
 .rooms__details-price {
@@ -963,6 +965,11 @@ textarea {
     height: 100%;
     width: 100%;
   }
+
+  .rooms__details-view {
+    font-size: 20px;
+  }
+
 }
 
 @media all and (max-width: 630px) {
@@ -1046,4 +1053,9 @@ textarea {
   .rooms__price-bar {
     padding-right: 10%;
   }
+
+  .rooms__details-view {
+    font-size: 15px;
+  }
+
 }
