@@ -6,4 +6,5 @@ https://catborn.github.io/luxury_hotels/
 
 [макет](https://www.figma.com/file/dzESlMQRSbsefBDJrKPpcR/Hotel-Website-)
 
+Проект создан командой:
 [![Contributors](https://contrib.rocks/image?repo=catborn/luxury_hotels)](https://github.com/akshitagupta15june/PetMe/graphs/contributors)
